@@ -1,6 +1,6 @@
 {
   "name": "@snups/rjsf-daisyui",
-  "version": "6.0.0-beta.15.3",
+  "version": "6.0.0-beta.15.4",
   "description": "Daisy UI components for react-jsonschema-form",
   "main": "dist/index.js",
   "module": "lib/index.js",
@@ -71,16 +71,16 @@
     "tailwindcss": "^4.1.12"
   },
   "peerDependencies": {
-    "@snups/rjsf-core": "^6.0.0-beta.15.3",
-    "@snups/rjsf-utils": "^6.0.0-beta.15.3",
+    "@snups/rjsf-core": "^6.0.0-beta.15.4",
+    "@snups/rjsf-utils": "^6.0.0-beta.15.4",
     "daisyui": "^5.0.29",
     "react": ">=18"
   },
   "devDependencies": {
-    "@snups/rjsf-core": "^6.0.0-beta.15.3",
-    "@snups/rjsf-snapshot-tests": "^6.0.0-beta.15.3",
-    "@snups/rjsf-utils": "^6.0.0-beta.15.3",
-    "@snups/rjsf-validator-ajv8": "^6.0.0-beta.15.3",
+    "@snups/rjsf-core": "^6.0.0-beta.15.4",
+    "@snups/rjsf-snapshot-tests": "^6.0.0-beta.15.4",
+    "@snups/rjsf-utils": "^6.0.0-beta.15.4",
+    "@snups/rjsf-validator-ajv8": "^6.0.0-beta.15.4",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.6.4",
     "@testing-library/react": "^16.3.0",

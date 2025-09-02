@@ -1,6 +1,6 @@
 {
   "name": "@snups/rjsf-mui",
-  "version": "6.0.0-beta.15.3",
+  "version": "6.0.0-beta.15.4",
   "main": "./dist/index.js",
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -64,8 +64,8 @@
     "@emotion/styled": "^11.6.0",
     "@mui/icons-material": "^7.0.0",
     "@mui/material": "^7.0.0",
-    "@snups/rjsf-core": "^6.0.0-beta.15.3",
-    "@snups/rjsf-utils": "^6.0.0-beta.15.3",
+    "@snups/rjsf-core": "^6.0.0-beta.15.4",
+    "@snups/rjsf-utils": "^6.0.0-beta.15.4",
     "react": ">=18"
   },
   "devDependencies": {
@@ -74,10 +74,10 @@
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.1",
     "@mui/material": "^7.3.1",
-    "@snups/rjsf-core": "^6.0.0-beta.15.3",
-    "@snups/rjsf-snapshot-tests": "^6.0.0-beta.15.3",
-    "@snups/rjsf-utils": "^6.0.0-beta.15.3",
-    "@snups/rjsf-validator-ajv8": "^6.0.0-beta.15.3",
+    "@snups/rjsf-core": "^6.0.0-beta.15.4",
+    "@snups/rjsf-snapshot-tests": "^6.0.0-beta.15.4",
+    "@snups/rjsf-utils": "^6.0.0-beta.15.4",
+    "@snups/rjsf-validator-ajv8": "^6.0.0-beta.15.4",
     "eslint": "^8.57.1"
   },
   "publishConfig": {

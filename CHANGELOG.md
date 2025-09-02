@@ -1,3 +1,7 @@
+## 6.0.0-beta.15.4 (2025-09-02)
+
+This was a version bump only, there were no code changes.
+
 ## 6.0.0-beta.15.3 (2025-09-02)
 
 This was a version bump only, there were no code changes.

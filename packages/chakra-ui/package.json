@@ -1,6 +1,6 @@
 {
   "name": "@snups/rjsf-chakra-ui",
-  "version": "6.0.0-beta.15.3",
+  "version": "6.0.0-beta.15.4",
   "description": "Chakra UI theme, fields, and widgets for react-jsonschema-form",
   "main": "dist/index.js",
   "module": "lib/index.js",
@@ -64,8 +64,8 @@
   },
   "peerDependencies": {
     "@chakra-ui/react": ">=3.16.1",
-    "@snups/rjsf-core": "^6.0.0-beta.15.3",
-    "@snups/rjsf-utils": "^6.0.0-beta.15.3",
+    "@snups/rjsf-core": "^6.0.0-beta.15.4",
+    "@snups/rjsf-utils": "^6.0.0-beta.15.4",
     "chakra-react-select": ">=6",
     "react": ">=18"
   },
@@ -86,10 +86,10 @@
     "@emotion/eslint-plugin": "^11.12.0",
     "@emotion/jest": "^11.13.0",
     "@emotion/react": "^11.14.0",
-    "@snups/rjsf-core": "^6.0.0-beta.15.3",
-    "@snups/rjsf-snapshot-tests": "^6.0.0-beta.15.3",
-    "@snups/rjsf-utils": "^6.0.0-beta.15.3",
-    "@snups/rjsf-validator-ajv8": "^6.0.0-beta.15.3",
+    "@snups/rjsf-core": "^6.0.0-beta.15.4",
+    "@snups/rjsf-snapshot-tests": "^6.0.0-beta.15.4",
+    "@snups/rjsf-utils": "^6.0.0-beta.15.4",
+    "@snups/rjsf-validator-ajv8": "^6.0.0-beta.15.4",
     "chakra-react-select": "^6.1.0",
     "eslint": "^8.57.1"
   },
