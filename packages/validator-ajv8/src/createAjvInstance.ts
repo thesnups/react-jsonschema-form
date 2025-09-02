@@ -1,4 +1,5 @@
 import Ajv, { Options } from 'ajv';
+import ajvErrors from 'ajv-errors';
 import addFormats, { FormatsPluginOptions } from 'ajv-formats';
 import isObject from 'lodash/isObject';
 import { ADDITIONAL_PROPERTY_FLAG, RJSF_ADDITIONAL_PROPERTIES_FLAG } from '@snups/rjsf-utils';
@@ -37,6 +38,7 @@ export default function createAjvInstance(
   ajvOptionsOverrides: CustomValidatorOptionsType['ajvOptionsOverrides'] = {},
   ajvFormatOptions?: FormatsPluginOptions | false,
   AjvClass: typeof Ajv = Ajv,
+  useAjvErrors?: boolean,
 ) {
   const ajv = new AjvClass({ ...AJV_CONFIG, ...ajvOptionsOverrides });
   if (ajvFormatOptions) {
@@ -63,6 +65,10 @@ export default function createAjvInstance(
     Object.keys(customFormats).forEach((formatName) => {
       ajv.addFormat(formatName, customFormats[formatName]);
     });
+  }
+
+  if (useAjvErrors) {
+    ajvErrors(ajv);
   }
 
   return ajv;
