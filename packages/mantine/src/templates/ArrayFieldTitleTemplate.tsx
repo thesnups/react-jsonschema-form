@@ -5,7 +5,7 @@ import {
   FormContextType,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Title } from '@mantine/core';
 
 /** The `ArrayFieldTitleTemplate` component renders a `TitleFieldTemplate` with an `id` derived from

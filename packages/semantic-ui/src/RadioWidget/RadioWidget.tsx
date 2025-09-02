@@ -8,7 +8,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { CheckboxProps, Form, Radio } from 'semantic-ui-react';
 import { getSemanticProps } from '../util';
 

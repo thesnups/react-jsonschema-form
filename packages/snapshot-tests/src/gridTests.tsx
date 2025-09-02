@@ -1,11 +1,11 @@
 import { ComponentType } from 'react';
 import renderer, { TestRendererOptions } from 'react-test-renderer';
-import { LOOKUP_MAP_NAME, RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
-import { FormProps } from '@rjsf/core';
+import { LOOKUP_MAP_NAME, RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
+import { FormProps } from '@snups/rjsf-core';
 
-jest.mock('@rjsf/utils', () => ({
-  ...jest.requireActual('@rjsf/utils'),
+jest.mock('@snups/rjsf-utils', () => ({
+  ...jest.requireActual('@snups/rjsf-utils'),
   // Disable the getTestIds within the snapshot tests by returning an empty object
   getTestIds: jest.fn(() => ({})),
 }));

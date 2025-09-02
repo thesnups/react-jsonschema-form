@@ -14,13 +14,13 @@ import {
   UiSchema,
   ValidationData,
   ValidatorType,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 import { CompiledValidateFunction, Localizer, ValidatorFunctions } from './types';
 import processRawValidationErrors, { RawValidationErrorsType } from './processRawValidationErrors';
 
 /** `ValidatorType` implementation that uses an AJV 8 precompiled validator as created by the
- * `compileSchemaValidators()` function provided by the `@rjsf/validator-ajv8` library.
+ * `compileSchemaValidators()` function provided by the `@snups/rjsf-validator-ajv8` library.
  */
 export default class AJV8PrecompiledValidator<
   T = any,

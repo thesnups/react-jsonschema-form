@@ -6,7 +6,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { ColorPicker } from 'primereact/colorpicker';
 
 /** The `ColorWidget` component renders a color picker.

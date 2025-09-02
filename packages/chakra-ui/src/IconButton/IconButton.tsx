@@ -1,4 +1,4 @@
-import { FormContextType, IconButtonProps, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@rjsf/utils';
+import { FormContextType, IconButtonProps, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@snups/rjsf-utils';
 
 import { ArrowUpIcon, ArrowDownIcon, CopyIcon, DeleteIcon } from 'lucide-react';
 import ChakraIconButton from './ChakraIconButton';

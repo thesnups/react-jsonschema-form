@@ -9,7 +9,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { FocusEvent } from 'react';
 
 import { Checkbox } from '../components/ui/checkbox';

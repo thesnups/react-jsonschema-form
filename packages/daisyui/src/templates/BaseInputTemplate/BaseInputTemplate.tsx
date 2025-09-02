@@ -7,7 +7,7 @@ import {
   getInputProps,
   ariaDescribedByIds,
   examplesId,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 /** The `BaseInputTemplate` component is a template for rendering basic input elements
  * with DaisyUI styling. It's used as the foundation for various input types in forms.

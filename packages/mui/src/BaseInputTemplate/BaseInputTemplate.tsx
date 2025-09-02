@@ -9,7 +9,7 @@ import {
   FormContextType,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 const TYPES_THAT_SHRINK_LABEL = ['date', 'datetime-local', 'file', 'time'];
 

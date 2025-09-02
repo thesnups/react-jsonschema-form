@@ -12,7 +12,7 @@ import {
   toDateString,
   TranslatableString,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { MouseEvent, useEffect, useState } from 'react';
 import { getChakra } from '../utils';
 

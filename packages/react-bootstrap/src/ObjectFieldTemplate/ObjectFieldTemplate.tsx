@@ -13,7 +13,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   titleId,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 export default function ObjectFieldTemplate<
   T = any,

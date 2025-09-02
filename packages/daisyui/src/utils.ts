@@ -1,4 +1,4 @@
-import { UiSchema } from '@rjsf/utils';
+import { UiSchema } from '@snups/rjsf-utils';
 
 import { DaisyProps } from './types/DaisyProps';
 

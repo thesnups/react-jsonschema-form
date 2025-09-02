@@ -1,4 +1,4 @@
-import { FormContextType, MultiSchemaFieldTemplateProps, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { FormContextType, MultiSchemaFieldTemplateProps, RJSFSchema, StrictRJSFSchema } from '@snups/rjsf-utils';
 import { Fieldset } from 'primereact/fieldset';
 
 export default function MultiSchemaFieldTemplate<

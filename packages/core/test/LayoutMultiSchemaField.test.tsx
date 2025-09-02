@@ -18,7 +18,7 @@ import {
   UI_OPTIONS_KEY,
   UI_WIDGET_KEY,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { get } from 'lodash';
@@ -32,8 +32,8 @@ import SelectWidget from '../src/components/widgets/SelectWidget';
 import { SIMPLE_ONEOF, SIMPLE_ONEOF_OPTIONS } from './testData/layoutData';
 import getTestRegistry from './testData/getTestRegistry';
 
-jest.mock('@rjsf/utils', () => ({
-  ...jest.requireActual('@rjsf/utils'),
+jest.mock('@snups/rjsf-utils', () => ({
+  ...jest.requireActual('@snups/rjsf-utils'),
   getWidget: jest.fn().mockImplementation((_schema, widget, widgets) => {
     const widgetToUse = widget === 'select' ? 'SelectWidget' : 'RadioWidget';
     // The real implementation wraps the resulting widget in another component, so we'll just do the simple thing

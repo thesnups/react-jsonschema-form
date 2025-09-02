@@ -1,4 +1,4 @@
-import { arrayTests } from '@rjsf/snapshot-tests';
+import { arrayTests } from '@snups/rjsf-snapshot-tests';
 import { MantineProvider } from '@mantine/core';
 
 import Form from '../src';

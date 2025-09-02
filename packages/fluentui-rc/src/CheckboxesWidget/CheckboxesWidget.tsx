@@ -11,7 +11,7 @@ import {
   WidgetProps,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Label, Checkbox } from '@fluentui/react-components';
 import { Flex } from '@fluentui/react-migration-v0-v9';
 

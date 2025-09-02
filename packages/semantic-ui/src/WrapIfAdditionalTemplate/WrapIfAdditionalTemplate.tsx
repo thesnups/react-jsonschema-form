@@ -7,7 +7,7 @@ import {
   StrictRJSFSchema,
   TranslatableString,
   WrapIfAdditionalTemplateProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Form, Grid } from 'semantic-ui-react';
 
 /** The `WrapIfAdditional` component is used by the `FieldTemplate` to rename, or remove properties that are

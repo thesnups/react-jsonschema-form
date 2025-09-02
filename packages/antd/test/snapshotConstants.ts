@@ -1,4 +1,4 @@
-import { SELECT_CUSTOMIZE } from '@rjsf/snapshot-tests';
+import { SELECT_CUSTOMIZE } from '@snups/rjsf-snapshot-tests';
 
 export const FORM_RENDER_OPTIONS = {
   [SELECT_CUSTOMIZE]: {

@@ -7,8 +7,8 @@ Arrays are defined with a type equal to `array`, and array items' schemas are sp
 Arrays of a single field type can be specified as follows:
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'array',
@@ -25,8 +25,8 @@ render(<Form schema={schema} validator={validator} />, document.getElementById('
 Arrays of objects can be specified as follows:
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'array',
@@ -48,8 +48,8 @@ render(<Form schema={schema} validator={validator} />, document.getElementById('
 To specify a uiSchema that applies to array items, specify the uiSchema value within the `items` property:
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'array',
@@ -72,8 +72,8 @@ render(<Form schema={schema} uiSchema={uiSchema} validator={validator} />, docum
 The `additionalItems` keyword allows the user to add additional items of a given schema. For example:
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'array',
@@ -98,8 +98,8 @@ They can also be overridden on a per-field basis inside a `ui:options` block as 
 Array items are orderable by default, and react-jsonschema-form renders move up/down buttons alongside them. The uiSchema `orderable` options allows you to disable ordering:
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'array',
@@ -122,8 +122,8 @@ render(<Form schema={schema} uiSchema={uiSchema} validator={validator} />, docum
 If either `items` or `additionalItems` contains a schema object, an add button for new items is shown by default. You can turn this off with the `addable` option in `uiSchema`:
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'array',
@@ -147,8 +147,8 @@ A copy button is **NOT** shown by default for an item if `items` contains a sche
 You can turn this **ON** with the `copyable` option in `uiSchema`:
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'array',
@@ -171,8 +171,8 @@ render(<Form schema={schema} uiSchema={uiSchema} validator={validator} />, docum
 A remove button is shown by default for an item if `items` contains a schema object, or the item is an `additionalItems` instance. You can turn this off with the `removable` option in `uiSchema`:
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'array',
@@ -197,8 +197,8 @@ The default behavior for array fields is a list of text inputs with add/remove b
 Example:
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'array',
@@ -216,8 +216,8 @@ render(<Form schema={schema} validator={validator} />, document.getElementById('
 By default, this will render a multiple select box. If you prefer a list of checkboxes, just set the uiSchema `ui:widget` directive to `checkboxes` for that field:
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'array',
@@ -243,8 +243,8 @@ In addition to [ArrayFieldTemplate](../advanced-customization/custom-templates.m
 Example:
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const CustomSelectComponent = (props) => {
   return (
@@ -287,8 +287,8 @@ Note that when an array property is marked as `required`, an empty array is cons
 Example:
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'array',
@@ -311,8 +311,8 @@ You can also specify the maximum number of items in an array using the `maxItems
 By default, checkboxes are stacked. If you prefer them inline, set the `inline` property to `true`:
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'array',

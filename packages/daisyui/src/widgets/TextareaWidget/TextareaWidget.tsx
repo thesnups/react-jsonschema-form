@@ -1,5 +1,5 @@
 import { FocusEvent, useCallback } from 'react';
-import { WidgetProps, StrictRJSFSchema, RJSFSchema, FormContextType } from '@rjsf/utils';
+import { WidgetProps, StrictRJSFSchema, RJSFSchema, FormContextType } from '@snups/rjsf-utils';
 
 /** The `TextareaWidget` component renders a multi-line text input with DaisyUI styling
  *

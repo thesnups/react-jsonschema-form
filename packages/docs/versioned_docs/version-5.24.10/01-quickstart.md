@@ -1,16 +1,16 @@
 # Quickstart
 
 Let's walk through setup of a form after installing the dependency properly.
-NOTE: As of version 5, the `Form` now requires you to provide a `validator` implementation. We recommend the one from `@rjsf/validator-ajv8`.
+NOTE: As of version 5, the `Form` now requires you to provide a `validator` implementation. We recommend the one from `@snups/rjsf-validator-ajv8`.
 
 ## Form schema
 
 First, specify a schema using the [JSON Schema specification](https://json-schema.org/). The below schema renders a single string field:
 
 ```tsx
-import Form from '@rjsf/core';
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import Form from '@snups/rjsf-core';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   title: 'Test form',
@@ -23,9 +23,9 @@ render(<Form schema={schema} validator={validator} />, document.getElementById('
 You can also render an object with multiple fields with the below schema:
 
 ```tsx
-import Form from '@rjsf/core';
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import Form from '@snups/rjsf-core';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   title: 'Test form',
@@ -51,9 +51,9 @@ The uiSchema is used to add more customization to the form's look and feel. Use 
 attribute of the uiSchema to add a custom CSS class name to the form:
 
 ```tsx
-import Form from '@rjsf/core';
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import Form from '@snups/rjsf-core';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   title: 'Test form',
@@ -72,9 +72,9 @@ uiSchema should be `{key: value}`, where `key` is the property key and `value` i
 object with the uiSchema configuration for that particular property. For example:
 
 ```tsx
-import Form from '@rjsf/core';
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import Form from '@snups/rjsf-core';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   title: 'Test form',
@@ -106,9 +106,9 @@ render(<Form schema={schema} uiSchema={uiSchema} validator={validator} />, docum
 Often you'll want to prefill a form with existing data; this is done by passing a `formData` prop object matching the schema:
 
 ```tsx
-import Form from '@rjsf/core';
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import Form from '@snups/rjsf-core';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'object',
@@ -144,8 +144,8 @@ By default, `<Form />` is an [uncontrolled component](https://reactjs.org/docs/u
 `onChange` and `formData` props as in the below example:
 
 ```tsx
-import Form from '@rjsf/core';
-import validator from '@rjsf/validator-ajv8';
+import Form from '@snups/rjsf-core';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const App = () => {
   const [formData, setFormData] = React.useState(null);

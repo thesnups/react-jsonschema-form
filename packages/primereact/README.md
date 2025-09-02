@@ -10,7 +10,7 @@
     <img src="https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/main/packages/primereact/logo.png" alt="Logo" width="120" height="120">
   </a>
 
-<h3 align="center">@rjsf/primereact</h3>
+<h3 align="center">@snups/rjsf-primereact (fork of @rjsf/primereact)</h3>
 
   <p align="center">
   PrimeReact theme, fields, and widgets for <a href="https://github.com/rjsf-team/react-jsonschema-form/"><code>react-jsonschema-form</code></a>.
@@ -53,31 +53,31 @@ PrimeReact theme, fields, and widgets for `react-jsonschema-form`.
 
 - `primereact >= 8.0.0`
 - `primeicons >= 6.0.0`
-- `@rjsf/core >= 6`
-- `@rjsf/utils >= 6`
-- `@rjsf/validator-ajv8 >= 6`
+- `@snups/rjsf-core >= 6`
+- `@snups/rjsf-utils >= 6`
+- `@snups/rjsf-validator-ajv8 >= 6`
 
 ```sh
-npm install primereact primeicons @rjsf/core
+npm install primereact primeicons @snups/rjsf-core
 ```
 
 ### Installation
 
 ```sh
-npm install @rjsf/primereact
+npm install @snups/rjsf-primereact
 ```
 
 ## Usage
 
 ```javascript
-import Form from '@rjsf/primereact';
+import Form from '@snups/rjsf-primereact';
 ```
 
 or
 
 ```javascript
-import { withTheme } from '@rjsf/core';
-import { Theme as PrimeReactTheme } from '@rjsf/primereact';
+import { withTheme } from '@snups/rjsf-core';
+import { Theme as PrimeReactTheme } from '@snups/rjsf-primereact';
 
 // Customize the theme with your own fields and widgets
 
@@ -111,10 +111,10 @@ repository: [https://github.com/rjsf-team/react-jsonschema-form](https://github.
 
 [license-url]: https://choosealicense.com/licenses/apache-2.0/
 
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/primereact/latest.svg?style=flat-square
+[npm-shield]: https://img.shields.io/npm/v/@snups/rjsf-primereact/latest.svg?style=flat-square
 
-[npm-url]: https://www.npmjs.com/package/@rjsf/primereact
+[npm-url]: https://www.npmjs.com/package/@snups/rjsf-primereact
 
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/primereact.svg?style=flat-square
+[npm-dl-shield]: https://img.shields.io/npm/dm/@snups/rjsf-primereact.svg?style=flat-square
 
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/primereact
+[npm-dl-url]: https://www.npmjs.com/package/@snups/rjsf-primereact

@@ -1,4 +1,4 @@
-import { FormContextType, RegistryWidgetsType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { FormContextType, RegistryWidgetsType, RJSFSchema, StrictRJSFSchema } from '@snups/rjsf-utils';
 
 import CheckboxWidget from '../CheckboxWidget/CheckboxWidget';
 import CheckboxesWidget from '../CheckboxesWidget/CheckboxesWidget';

@@ -11,7 +11,7 @@ import { ChakraProvider, defaultSystem } from '@chakra-ui/react';
  * We have to define ChakraFrameProvider in this library, as opposed to the playground,
  * in order to avoid conflicting versions of emotion, which breaks the styling.
  *
- * NOTE: This is an internal component only used by @rjsf/playground (no
+ * NOTE: This is an internal component only used by @snups/rjsf-playground (no
  * backwards compatibility guarantees!)
  *
  * From: https://codesandbox.io/s/p98y9o7jz0?file=/src/frame-provider.js:0-650

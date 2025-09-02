@@ -1,4 +1,4 @@
-import { gridTests, SELECT_CUSTOMIZE } from '@rjsf/snapshot-tests';
+import { gridTests, SELECT_CUSTOMIZE } from '@snups/rjsf-snapshot-tests';
 
 import '../__mocks__/matchMedia.mock';
 import Form from '../src';

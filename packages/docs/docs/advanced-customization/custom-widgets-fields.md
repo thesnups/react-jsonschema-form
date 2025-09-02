@@ -12,8 +12,8 @@ renders for boolean values. You can override any field and widget just by provid
 `fields` and `widgets` props:
 
 ```tsx
-import { RJSFSchema, UiSchema, WidgetProps, RegistryWidgetsType } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema, WidgetProps, RegistryWidgetsType } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'boolean',
@@ -45,8 +45,8 @@ render(
 This allows you to create a reusable customized form class with your custom fields and widgets:
 
 ```tsx
-import { RegistryFieldsType, RegistryWidgetsType } from '@rjsf/utils';
-import { FormProps } from '@rjsf/core';
+import { RegistryFieldsType, RegistryWidgetsType } from '@snups/rjsf-utils';
+import { FormProps } from '@snups/rjsf-core';
 
 const customFields: RegistryFieldsType = { StringField: CustomString };
 const customWidgets: RegistryWidgetsType = { CheckboxWidget: CustomCheckbox };
@@ -110,8 +110,8 @@ If you wish to add generic validation logic for your component, you should use t
 :::
 
 ```tsx
-import { ErrorSchema, RJSFSchema, UiSchema, WidgetProps, RegistryWidgetsType } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { ErrorSchema, RJSFSchema, UiSchema, WidgetProps, RegistryWidgetsType } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'text',
@@ -160,8 +160,8 @@ You can provide your own custom widgets to a uiSchema for the following json dat
 - `array`
 
 ```tsx
-import { RJSFSchema, UiSchema, WidgetProps } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema, WidgetProps } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: Schema = {
   type: 'string',
@@ -213,8 +213,8 @@ The following props are passed to custom widget components:
 Alternatively, you can register them all at once by passing the `widgets` prop to the `Form` component, and reference their identifier from the `uiSchema`:
 
 ```tsx
-import { RJSFSchema, UiSchema, WidgetProps, RegistryWidgetsType } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema, WidgetProps, RegistryWidgetsType } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const MyCustomWidget = (props: WidgetProps) => {
   return (
@@ -253,8 +253,8 @@ This is useful if you expose the `uiSchema` as pure JSON, which can't carry func
 If you need to pass options to your custom widget, you can add a `ui:options` object containing those properties. If the widget has `defaultProps`, the options will be merged with the (optional) options object from `defaultProps`:
 
 ```tsx
-import { RJSFSchema, UiSchema, WidgetProps } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema, WidgetProps } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'string',
@@ -297,9 +297,9 @@ The way to do this varies based upon whether you are using core or some other th
 Here is an example of modifying the `SelectWidget` to change the ordering of `enumOptions`:
 
 ```tsx
-import { WidgetProps } from '@rjsf/utils';
-import { getDefaultRegistry } from '@rjsf/core';
-import { Widgets } from '@rjsf/mui';
+import { WidgetProps } from '@snups/rjsf-utils';
+import { getDefaultRegistry } from '@snups/rjsf-core';
+import { Widgets } from '@snups/rjsf-mui';
 
 import myOptionsOrderFunction from './myOptionsOrderFunction';
 
@@ -324,8 +324,8 @@ You can provide your own field components to a uiSchema for basically any json s
 For example, let's create and register a dumb `geo` component handling a _latitude_ and a _longitude_:
 
 ```tsx
-import { RJSFSchema, UiSchema, FieldProps, RegistryFieldsType } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema, FieldProps, RegistryFieldsType } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'object',
@@ -411,7 +411,7 @@ The `registry` is an object containing the registered core, theme and custom fie
 - `fields`: The set of all fields used by the `Form`. Includes fields from `core`, theme-specific fields and any [custom registered fields](#custom-field-components);
 - `widgets`: The set of all widgets used by the `Form`. Includes widgets from `core`, theme-specific widgets and any [custom registered widgets](#custom-component-registration), if any;
 - `rootSchema`: The root schema, as passed to the `Form`, which can contain referenced [definitions](../json-schema/definitions.md);
-- `schemaUtils`: The current implementation of the `SchemaUtilsType` (from `@rjsf/utils`) in use by the `Form`. Used to call any of the validation-schema-based utility functions.
+- `schemaUtils`: The current implementation of the `SchemaUtilsType` (from `@snups/rjsf-utils`) in use by the `Form`. Used to call any of the validation-schema-based utility functions.
 
 The registry is passed down the component tree, so you can access it from your custom field, custom widget, custom template and `SchemaField` components.
 
@@ -424,8 +424,8 @@ You can provide your own implementation of the `SchemaField` base React componen
 To proceed so, pass a `fields` object having a `SchemaField` property to your `Form` component; here's an example:
 
 ```tsx
-import { RJSFSchema, FieldProps, RegistryFieldsType } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, FieldProps, RegistryFieldsType } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const CustomSchemaField = function (props: FieldProps) {
   return (
@@ -458,8 +458,8 @@ By default, `ArraySchemaField` is not actually implemented in the `fields` list 
 If you want to customize how the individual items for an array are rendered, provide your implementation of `ArraySchemaField` as a `fields` override.
 
 ```tsx
-import { RJSFSchema, UiSchema, FieldProps, RegistryFieldsType } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema, FieldProps, RegistryFieldsType } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const CustomArraySchemaField = function (props: FieldProps) {
   const { index, registry } = props;
@@ -488,8 +488,8 @@ You can provide your own implementation of the field component that applies to a
 To provide a custom field in this way, the `fields` prop should be an object which contains a key that matches the `$id` value of the schema which should have a custom field; here's an example:
 
 ```tsx
-import { RJSFSchema, FieldProps, RegistryFieldsType } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, FieldProps, RegistryFieldsType } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const CustomIdField = function (props: FieldProps) {
   return (
@@ -520,8 +520,8 @@ Here is an example of wrapping the `ObjectField` to tweak the `onChange` handler
 
 ```tsx
 import { useCallback } from 'react';
-import { FieldProps } from '@rjsf/utils';
-import { getDefaultRegistry } from '@rjsf/core';
+import { FieldProps } from '@snups/rjsf-utils';
+import { getDefaultRegistry } from '@snups/rjsf-core';
 
 import checkBadData from './checkBadData';
 

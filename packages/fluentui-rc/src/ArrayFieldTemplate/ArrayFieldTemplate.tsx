@@ -9,7 +9,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   buttonId,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 const useStyles = makeStyles({
   arrayItemList: {

@@ -1,4 +1,4 @@
-import { titleId, FieldProps, ID_KEY, IdSchema, Registry, TitleFieldProps } from '@rjsf/utils';
+import { titleId, FieldProps, ID_KEY, IdSchema, Registry, TitleFieldProps } from '@snups/rjsf-utils';
 import { render, screen, within } from '@testing-library/react';
 import noop from 'lodash/noop';
 

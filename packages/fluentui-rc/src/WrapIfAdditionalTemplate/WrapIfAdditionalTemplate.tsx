@@ -7,7 +7,7 @@ import {
   StrictRJSFSchema,
   TranslatableString,
   WrapIfAdditionalTemplateProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Field, Input, makeStyles } from '@fluentui/react-components';
 import { Flex } from '@fluentui/react-migration-v0-v9';
 

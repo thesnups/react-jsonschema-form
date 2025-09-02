@@ -415,7 +415,7 @@ export interface Registry<T = any, S extends StrictRJSFSchema = RJSFSchema, F ex
   formContext: F;
   /** The root schema, as passed to the `Form`, which can contain referenced definitions */
   rootSchema: S;
-  /** The current implementation of the `SchemaUtilsType` (from `@rjsf/utils`) in use by the `Form`.  Used to call any
+  /** The current implementation of the `SchemaUtilsType` (from `@snups/rjsf-utils`) in use by the `Form`.  Used to call any
    * of the validation-schema-based utility functions
    */
   schemaUtils: SchemaUtilsType<T, S>;
@@ -1116,10 +1116,10 @@ export interface FoundFieldType<S extends StrictRJSFSchema = RJSFSchema> {
   isRequired?: boolean;
 }
 
-/** The `SchemaUtilsType` interface provides a wrapper around the publicly exported APIs in the `@rjsf/utils/schema`
+/** The `SchemaUtilsType` interface provides a wrapper around the publicly exported APIs in the `@snups/rjsf-utils/schema`
  * directory such that one does not have to explicitly pass the `validator` or `rootSchema` to each method. Since both
  * the `validator` and `rootSchema` generally does not change across a `Form`, this allows for providing a simplified
- * set of APIs to the `@rjsf/core` components and the various themes as well.
+ * set of APIs to the `@snups/rjsf-core` components and the various themes as well.
  */
 export interface SchemaUtilsType<T = any, S extends StrictRJSFSchema = RJSFSchema, F extends FormContextType = any> {
   /** Returns the `rootSchema` in the `SchemaUtilsType`

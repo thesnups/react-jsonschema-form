@@ -16,14 +16,14 @@ import {
   unwrapErrorHandler,
   validationDataMerge,
   ValidatorType,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 export type RawValidationErrorsType<Result = any> = {
   errors?: Result[];
   validationError?: Error;
 };
 
-/** Transforming the error output from ajv to format used by @rjsf/utils.
+/** Transforming the error output from ajv to format used by @snups/rjsf-utils.
  * At some point, components should be updated to support ajv.
  *
  * @param errors - The list of AJV errors to convert to `RJSFValidationErrors`

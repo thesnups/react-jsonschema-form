@@ -8,7 +8,7 @@ import { TestValidatorParams, TestValidatorType } from '../schema/types';
  * of the actual `validator` implementations to understand how to set the mocks when writing or updating tests. Feel
  * free to run the validator tests first if you aren't sure whether your mocks are correct.
  *
- * All tests that use the `TestValidator` are contained within the `@rjsf/utils/test/schema` directory and are run via
+ * All tests that use the `TestValidator` are contained within the `@snups/rjsf-utils/test/schema` directory and are run via
  * the `schema.test.ts` file.
  */
 export default function getTestValidator<T = any>({

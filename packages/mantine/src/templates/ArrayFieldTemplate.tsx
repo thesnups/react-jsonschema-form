@@ -7,7 +7,7 @@ import {
   FormContextType,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Fieldset, Box, Group } from '@mantine/core';
 
 /** The `ArrayFieldTemplate` component is the template used to render all items in an array.

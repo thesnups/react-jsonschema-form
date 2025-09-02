@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useCallback, useContext, useState } from 'react';
-import { getDefaultRegistry, ThemeProps } from '@rjsf/core';
-import { FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { getDefaultRegistry, ThemeProps } from '@snups/rjsf-core';
+import { FormContextType, RJSFSchema, StrictRJSFSchema } from '@snups/rjsf-utils';
 
 import { generateTemplates } from '../templates/Templates';
 import { generateWidgets } from '../widgets/Widgets';

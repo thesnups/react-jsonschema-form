@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import { FormContextType, TitleFieldProps, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { FormContextType, TitleFieldProps, RJSFSchema, StrictRJSFSchema } from '@snups/rjsf-utils';
 import { ConfigProvider } from 'antd';
 import { useContext } from 'react';
 

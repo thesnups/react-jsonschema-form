@@ -9,7 +9,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   ErrorSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 /** The `StringField` component is used to render a schema field that represents a string type
  *

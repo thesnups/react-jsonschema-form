@@ -20,7 +20,7 @@ You may set PrimeReact-specific options in the `uiSchema` object using the `"pri
 
 ## Components
 
-The `@rjsf/primereact` theme renders to the following PrimeReact components:
+The `@snups/rjsf-primereact` theme renders to the following PrimeReact components:
 
 - [`InputText`](https://primereact.org/inputtext/) as the default widget
 - [`AutoComplete`](https://primereact.org/autocomplete/) as the default with `examples`

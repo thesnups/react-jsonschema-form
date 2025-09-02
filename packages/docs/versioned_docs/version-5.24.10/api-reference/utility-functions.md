@@ -1,6 +1,6 @@
 # RJSF utility functions, constants and types
 
-In version 5, the utility functions from `@rjsf/core/utils` were refactored into their own library called `@rjsf/utils`.
+In version 5, the utility functions from `@snups/rjsf-core/utils` were refactored into their own library called `@snups/rjsf-utils`.
 These utility functions are separated into two distinct groups.
 The first, larger, group are the [functions](#non-validator-utility-functions) that do NOT require a `ValidatorType` interface be provided as one of their parameters.
 The second, smaller, group are the [functions](#validator-based-utility-functions) that DO require a `ValidatorType` interface be provided as a parameter.
@@ -8,7 +8,7 @@ There is also a helper [function](#schema-utils-creation-function) used to creat
 
 ## Constants
 
-The `@rjsf/utils` package exports a set of constants that represent all the keys into various elements of a RJSFSchema or UiSchema that are used by the various utility functions.
+The `@snups/rjsf-utils` package exports a set of constants that represent all the keys into various elements of a RJSFSchema or UiSchema that are used by the various utility functions.
 In addition to those keys, there is the special `ADDITIONAL_PROPERTY_FLAG` flag that is added to a schema under certain conditions by the `retrieveSchema()` utility.
 
 These constants can be found on GitHub [here](https://github.com/rjsf-team/react-jsonschema-form/blob/main/packages/utils/src/constants.ts).
@@ -16,13 +16,13 @@ These constants can be found on GitHub [here](https://github.com/rjsf-team/react
 ## Types
 
 Additionally, the Typescript types used by the utility functions represent nearly all the types used by RJSF.
-Those types are exported for use by `@rjsf/core` and all the themes, as well as any customizations you may build.
+Those types are exported for use by `@snups/rjsf-core` and all the themes, as well as any customizations you may build.
 
 These types can be found on GitHub [here](https://github.com/rjsf-team/react-jsonschema-form/blob/main/packages/utils/src/types.ts).
 
 ## Enums
 
-There are enumerations in `@rjsf/utils` that are exported for use by `@rjsf/core` and all the themes, as well as any customizations you may build.
+There are enumerations in `@snups/rjsf-utils` that are exported for use by `@snups/rjsf-core` and all the themes, as well as any customizations you may build.
 
 These enums can be found on GitHub [here](https://github.com/rjsf-team/react-jsonschema-form/blob/main/packages/utils/src/enums.ts).
 
@@ -1052,7 +1052,7 @@ Checks to see if the `schema` combination represents a select
 Merges the errors in `additionalErrorSchema` into the existing `validationData` by combining the hierarchies in the two `ErrorSchema`s and then appending the error list from the `additionalErrorSchema` obtained by calling `validator.toErrorList()` onto the `errors` in the `validationData`.
 If no `additionalErrorSchema` is passed, then `validationData` is returned.
 
-> NOTE: This is function is deprecated. Use the `validationDataMerge()` function exported from `@rjsf/utils` instead. This function will be
+> NOTE: This is function is deprecated. Use the `validationDataMerge()` function exported from `@snups/rjsf-utils` instead. This function will be
 > removed in the next major release.
 
 #### Parameters
@@ -1178,7 +1178,7 @@ Returns the `ErrorSchema` that has been updated by the methods of the `ErrorSche
 Usage:
 
 ```ts
-import { ErrorSchemaBuilder, ErrorSchema } from "@rjsf/utils";
+import { ErrorSchemaBuilder, ErrorSchema } from "@snups/rjsf-utils";
 
 const builder = new ErrorSchemaBuilder();
 

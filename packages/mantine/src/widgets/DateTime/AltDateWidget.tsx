@@ -13,7 +13,7 @@ import {
   StrictRJSFSchema,
   TranslatableString,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Flex, Box, Group, Button, Select, Input } from '@mantine/core';
 
 function readyForChange(state: DateObject) {

@@ -9,7 +9,7 @@ import {
   getTemplate,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 /** The `ArrayFieldItemTemplate` component is the template used to render an items of an array.
  *

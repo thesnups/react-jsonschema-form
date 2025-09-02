@@ -1,7 +1,7 @@
 import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
-import { FormContextType, TitleFieldProps, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { FormContextType, TitleFieldProps, RJSFSchema, StrictRJSFSchema } from '@snups/rjsf-utils';
 
 /** The `TitleField` is the template to use to render the title of a field
  *

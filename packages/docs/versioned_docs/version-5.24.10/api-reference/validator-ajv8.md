@@ -1,13 +1,13 @@
-# @rjsf/validator-ajv8 APIs
+# @snups/rjsf-validator-ajv8 APIs
 
-In RJSF version 5, the original, embedded AJV 6 validator implementation from earlier versions was extracted into its own package, `@rjsf/validator-ajv6`, which was immediately deprecated since AJV 6 is no longer getting maintenance updates.
-A new `@rjsf/validator-ajv8` package was added that uses the AJV 8 package, including adding support for using precompiled validators.
+In RJSF version 5, the original, embedded AJV 6 validator implementation from earlier versions was extracted into its own package, `@snups/rjsf-validator-ajv6`, which was immediately deprecated since AJV 6 is no longer getting maintenance updates.
+A new `@snups/rjsf-validator-ajv8` package was added that uses the AJV 8 package, including adding support for using precompiled validators.
 Below are the exported API functions that are provided by this package.
 See the [Validation documentation](../usage/validation.md) for examples of using these APIs.
 
 ## Types
 
-There are a few Typescript types that are exported by `@rjsf/validator-ajv8` in support of the APIs.
+There are a few Typescript types that are exported by `@snups/rjsf-validator-ajv8` in support of the APIs.
 
 These types can be found on GitHub [here](https://github.com/rjsf-team/react-jsonschema-form/blob/main/packages/validator-ajv8/src/types.ts).
 

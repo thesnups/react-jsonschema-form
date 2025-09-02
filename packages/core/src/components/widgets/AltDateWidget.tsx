@@ -12,7 +12,7 @@ import {
   TranslatableString,
   WidgetProps,
   getDateElementProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 function readyForChange(state: DateObject) {
   return Object.values(state).every((value) => value !== -1);

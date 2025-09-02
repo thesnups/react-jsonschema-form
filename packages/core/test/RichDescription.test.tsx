@@ -1,4 +1,4 @@
-import { Registry } from '@rjsf/utils';
+import { Registry } from '@snups/rjsf-utils';
 import { render, within } from '@testing-library/react';
 
 import { RichDescription, RichDescriptionProps } from '../src';

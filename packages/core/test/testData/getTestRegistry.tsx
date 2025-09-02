@@ -1,5 +1,5 @@
-import { createSchemaUtils, englishStringTranslator, Registry } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { createSchemaUtils, englishStringTranslator, Registry } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 import getDefaultRegistry from '../../src/getDefaultRegistry';
 

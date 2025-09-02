@@ -6,7 +6,7 @@ import {
   WidgetProps,
   ariaDescribedByIds,
   labelValue,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { ChangeEvent, FocusEvent } from 'react';
 
 const useStyles = makeStyles({

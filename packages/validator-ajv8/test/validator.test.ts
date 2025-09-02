@@ -8,7 +8,7 @@ import {
   RJSFValidationError,
   UiSchema,
   ValidatorType,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import localize from 'ajv-i18n';
 
 import AJV8Validator from '../src/validator';

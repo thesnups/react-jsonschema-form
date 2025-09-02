@@ -1,4 +1,4 @@
-import { ErrorListProps, FormContextType, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@rjsf/utils';
+import { ErrorListProps, FormContextType, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@snups/rjsf-utils';
 import { ListItem, ListRoot } from '@chakra-ui/react';
 
 import { Alert } from '../components/ui/alert';

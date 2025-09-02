@@ -11,7 +11,7 @@
     <img src="https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/7ebc86621d8df8c21f0c39bcca6d476f6f7a2051/packages/validator-ajv8/logo.png" alt="Logo" width="120" height="120">
   </a>
 
-  <h3 align="center">@rjsf/validator-ajv8</h3>
+  <h3 align="center">@snups/rjsf-validator-ajv8 (fork of @rjsf/validator-ajv8)</h3>
 
   <p align="center">
   AJV-8 based validator plugin for <a href="https://github.com/rjsf-team/react-jsonschema-form/"><code>react-jsonschema-form</code></a>.
@@ -62,16 +62,16 @@ Exports `validator-ajv8` plugin for `react-jsonschema-form`.
 
 #### React JsonSchema Form Utils
 
-- `@rjsf/utils >= 5.0.0`
+- `@snups/rjsf-utils >= 5.0.0`
 
 ```bash
-yarn add @rjsf/core
+yarn add @snups/rjsf-core
 ```
 
 ### Installation
 
 ```bash
-yarn add @rjsf/validator-ajv8
+yarn add @snups/rjsf-validator-ajv8
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -81,7 +81,7 @@ yarn add @rjsf/validator-ajv8
 ```tsx
 import { RJSFSchema } from 'packages/utils/dist/index';
 import Form from 'packages/core/dist/index';
-import validator from '@rjsf/validator-ajv8';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'string',
@@ -93,9 +93,9 @@ const schema: RJSFSchema = {
 or, using a more complex example using custom validator with custom formats
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import Form from '@rjsf/core';
-import { customizeValidator } from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import Form from '@snups/rjsf-core';
+import { customizeValidator } from '@snups/rjsf-validator-ajv8';
 
 const customFormats = {
   'phone-us': /\(?\d{3}\)?[\s-]?\d{3}[\s-]?\d{4}$/,
@@ -116,9 +116,9 @@ const schema: RJSFSchema = {
 or, using a more complex example using a custom with additional meta schema
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import Form from '@rjsf/core';
-import { customizeValidator } from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import Form from '@snups/rjsf-core';
+import { customizeValidator } from '@snups/rjsf-validator-ajv8';
 
 const metaSchemaDraft06 = require('ajv/lib/refs/json-schema-draft-06.json');
 
@@ -137,9 +137,9 @@ const schema: RJSFSchema = {
 or, using a more complex example using custom validator config override options
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import Form from '@rjsf/core';
-import { customizeValidator } from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import Form from '@snups/rjsf-core';
+import { customizeValidator } from '@snups/rjsf-validator-ajv8';
 
 const validator = customizeValidator({
   ajvOptionsOverrides: {
@@ -158,9 +158,9 @@ const schema: RJSFSchema = {
 or, using a more complex example using `ajv-formats` custom [format options](https://github.com/ajv-validator/ajv-formats).
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import Form from '@rjsf/core';
-import { customizeValidator } from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import Form from '@snups/rjsf-core';
+import { customizeValidator } from '@snups/rjsf-validator-ajv8';
 
 const validator = customizeValidator({
   ajvFormatOptions: {
@@ -179,9 +179,9 @@ const schema: RJSFSchema = {
 Finally, you can combine both additional meta schemas, custom formats, custom validator config override options and `ajv-formats` custom [format options](https://github.com/ajv-validator/ajv-formats).
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import Form from '@rjsf/core';
-import { customizeValidator } from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import Form from '@snups/rjsf-core';
+import { customizeValidator } from '@snups/rjsf-validator-ajv8';
 
 const metaSchemaDraft06 = require('ajv/lib/refs/json-schema-draft-06.json');
 
@@ -240,7 +240,7 @@ GitHub repository: [https://github.com/rjsf-team/react-jsonschema-form](https://
 [contributors-url]: https://github.com/rjsf-team/react-jsonschema-form/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/apache-2.0/
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/validator-ajv8/latest.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@rjsf/validator-ajv8
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/validator-ajv8.svg?style=flat-square
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/validator-ajv8
+[npm-shield]: https://img.shields.io/npm/v/@snups/rjsf-validator-ajv8/latest.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@snups/rjsf-validator-ajv8
+[npm-dl-shield]: https://img.shields.io/npm/dm/@snups/rjsf-validator-ajv8.svg?style=flat-square
+[npm-dl-url]: https://www.npmjs.com/package/@snups/rjsf-validator-ajv8

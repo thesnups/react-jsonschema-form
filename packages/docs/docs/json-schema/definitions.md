@@ -3,8 +3,8 @@
 This library partially supports [inline schema definition dereferencing](http://json-schema.org/draft/2019-09/json-schema-core.html#ref), which allows you to re-use parts of your schema:
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   definitions: {

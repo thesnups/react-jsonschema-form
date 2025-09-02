@@ -8,7 +8,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { MultiSelect } from 'primereact/multiselect';
 
 /** The `SelectWidget` is a widget for rendering dropdowns.

@@ -16,7 +16,7 @@ import {
   getUiOptions,
   titleId,
   buttonId,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Col, Row, ConfigProvider } from 'antd';
 import { useContext } from 'react';
 

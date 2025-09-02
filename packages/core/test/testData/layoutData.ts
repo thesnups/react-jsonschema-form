@@ -1,4 +1,4 @@
-import { EnumOptionsType, RJSFSchema, UiSchema } from '@rjsf/utils';
+import { EnumOptionsType, RJSFSchema, UiSchema } from '@snups/rjsf-utils';
 
 export const SIMPLE_ONEOF: RJSFSchema = {
   title: 'Simple',

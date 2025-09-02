@@ -1,5 +1,5 @@
 import { Card, Text, makeStyles, shorthands, tokens } from '@fluentui/react-components';
-import { ErrorListProps, FormContextType, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@rjsf/utils';
+import { ErrorListProps, FormContextType, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@snups/rjsf-utils';
 
 const useStyles = makeStyles({
   errorCard: {

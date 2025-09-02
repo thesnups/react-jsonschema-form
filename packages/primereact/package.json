@@ -1,6 +1,6 @@
 {
-  "name": "@rjsf/primereact",
-  "version": "6.0.0-beta.15",
+  "name": "@snups/rjsf-primereact",
+  "version": "6.0.0-beta.15.2",
   "description": "PrimeReact theme, fields and widgets for react-jsonschema-form",
   "main": "dist/index.js",
   "module": "lib/index.js",
@@ -37,7 +37,7 @@
     "build:ts": "tsc -b tsconfig.build.json && tsc-alias -p tsconfig.build.json",
     "build:cjs": "esbuild ./src/index.ts --bundle --outfile=dist/index.js --sourcemap --packages=external --format=cjs",
     "build:esm": "esbuild ./src/index.ts --bundle --outfile=dist/primereact.esm.js --sourcemap --packages=external --format=esm",
-    "build:umd": "rollup dist/primereact.esm.js --format=umd --file=dist/primereact.umd.js --name=@rjsf/primereact",
+    "build:umd": "rollup dist/primereact.esm.js --format=umd --file=dist/primereact.umd.js --name=@snups/rjsf-primereact",
     "build": "npm run build:ts && npm run build:cjs && npm run build:esm && npm run build:umd",
     "cs-check": "prettier -l \"{src,test}/**/*.ts?(x)\"",
     "cs-format": "prettier \"{src,test}/**/*.ts?(x)\" --write",
@@ -61,17 +61,17 @@
     "node": ">=20"
   },
   "peerDependencies": {
-    "@rjsf/core": "^6.0.0-beta.15",
-    "@rjsf/utils": "^6.0.0-beta.15",
+    "@snups/rjsf-core": "^6.0.0-beta.15.2",
+    "@snups/rjsf-utils": "^6.0.0-beta.15.2",
     "primeicons": ">=6.0.0",
     "primereact": ">=8.0.0",
     "react": ">=18"
   },
   "devDependencies": {
-    "@rjsf/core": "^6.0.0-beta.15",
-    "@rjsf/snapshot-tests": "^6.0.0-beta.15",
-    "@rjsf/utils": "^6.0.0-beta.15",
-    "@rjsf/validator-ajv8": "^6.0.0-beta.15",
+    "@snups/rjsf-core": "^6.0.0-beta.15.2",
+    "@snups/rjsf-snapshot-tests": "^6.0.0-beta.15.2",
+    "@snups/rjsf-utils": "^6.0.0-beta.15.2",
+    "@snups/rjsf-validator-ajv8": "^6.0.0-beta.15.2",
     "@rollup/plugin-replace": "^6.0.2",
     "eslint": "^8.57.1",
     "primeflex": "^4.0.0",
@@ -80,7 +80,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rjsf-team/react-jsonschema-form.git"
+    "url": "git+https://github.com/thesnups/react-jsonschema-form.git"
   },
   "keywords": [
     "primereact",

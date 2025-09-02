@@ -6,7 +6,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Form } from 'semantic-ui-react';
 import { getSemanticProps } from '../util';
 

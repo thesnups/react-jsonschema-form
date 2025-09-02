@@ -1,6 +1,13 @@
 import { FocusEvent } from 'react';
 import { Slider, SliderChangeEvent } from 'primereact/slider';
-import { ariaDescribedByIds, FormContextType, RJSFSchema, StrictRJSFSchema, WidgetProps, rangeSpec } from '@rjsf/utils';
+import {
+  ariaDescribedByIds,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+  WidgetProps,
+  rangeSpec,
+} from '@snups/rjsf-utils';
 
 /** The `RangeWidget` component uses the `Slider` from PrimeReact, wrapping the result
  * in a div, with the value alongside it.

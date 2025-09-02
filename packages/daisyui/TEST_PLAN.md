@@ -11,7 +11,7 @@ The test environment includes:
 - Jest for test runner
 - React Testing Library for component testing
 - jest-environment-jsdom for browser API simulation
-- @rjsf/snapshot-tests for core component testing
+- @snups/rjsf-snapshot-tests for core component testing
 
 ## Test Structure
 

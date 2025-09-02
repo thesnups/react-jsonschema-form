@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import sinon from 'sinon';
 import { render, fireEvent, act } from '@testing-library/react';
 import { Simulate } from 'react-dom/test-utils';
-import validator from '@rjsf/validator-ajv8';
+import validator from '@snups/rjsf-validator-ajv8';
 
 import SelectWidget from '../src/components/widgets/SelectWidget';
 import RadioWidget from '../src/components/widgets/RadioWidget';

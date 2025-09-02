@@ -37,7 +37,7 @@ import {
   Experimental_CustomMergeAllOf,
   createErrorHandler,
   unwrapErrorHandler,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import _cloneDeep from 'lodash/cloneDeep';
 import _forEach from 'lodash/forEach';
 import _get from 'lodash/get';

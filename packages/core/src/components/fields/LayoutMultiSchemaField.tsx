@@ -20,7 +20,7 @@ import {
   SchemaUtilsType,
   StrictRJSFSchema,
   UiSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import get from 'lodash/get';
 import has from 'lodash/has';
 import isEmpty from 'lodash/isEmpty';

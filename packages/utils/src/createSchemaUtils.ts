@@ -36,7 +36,7 @@ import get from 'lodash/get';
 /** The `SchemaUtils` class provides a wrapper around the publicly exported APIs in the `utils/schema` directory such
  * that one does not have to explicitly pass the `validator`, `rootSchema`, `experimental_defaultFormStateBehavior` or
  * `experimental_customMergeAllOf` to each method. Since these generally do not change across a `Form`, this allows for
- * providing a simplified set of APIs to the `@rjsf/core` components and the various themes as well. This class
+ * providing a simplified set of APIs to the `@snups/rjsf-core` components and the various themes as well. This class
  * implements the `SchemaUtilsType` interface.
  */
 class SchemaUtils<T = any, S extends StrictRJSFSchema = RJSFSchema, F extends FormContextType = any>

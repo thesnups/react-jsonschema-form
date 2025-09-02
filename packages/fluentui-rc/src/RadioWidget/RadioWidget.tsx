@@ -9,7 +9,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Label, Radio, RadioGroup, RadioGroupOnChangeData } from '@fluentui/react-components';
 
 /** The `RadioWidget` is a widget for rendering a radio group.

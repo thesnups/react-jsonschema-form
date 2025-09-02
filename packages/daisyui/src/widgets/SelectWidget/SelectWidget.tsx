@@ -6,7 +6,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 /** The `SelectWidget` component renders a select input with DaisyUI styling
  *

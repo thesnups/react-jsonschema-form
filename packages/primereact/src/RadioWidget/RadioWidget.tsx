@@ -7,7 +7,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { RadioButton, RadioButtonChangeEvent } from 'primereact/radiobutton';
 
 /** The `RadioWidget` is a widget for rendering a radio group.

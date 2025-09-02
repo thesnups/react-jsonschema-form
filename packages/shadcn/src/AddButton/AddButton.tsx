@@ -1,4 +1,4 @@
-import { FormContextType, IconButtonProps, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@rjsf/utils';
+import { FormContextType, IconButtonProps, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@snups/rjsf-utils';
 import { PlusCircle } from 'lucide-react';
 
 import { Button } from '../components/ui/button';

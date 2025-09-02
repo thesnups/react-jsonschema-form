@@ -2,7 +2,7 @@
 
 ## Development server
 
-We are using `Vite` to power our `playground`, which caches all the built `@rjsf/*` distributions.
+We are using `Vite` to power our `playground`, which caches all the built `@snups/rjsf-*` distributions.
 In order to test the `playground` locally after a new clone or fresh pull from `main`, run the following from the root directory of the monorepo:
 
 ```bash
@@ -89,9 +89,9 @@ There are functions in the `testSnap` directory: `arrayTests`, `formTests` and `
 Each theme will basically run these functions by creating a `Xxx.test.tsx` file (where `Xxx` is `Array`, `Form` or `Object`) that looks like the following:
 
 ```tsx
-import { arrayTests } from '@rjsf/snapshot-tests'; // OR
-// import { formTests } from '@rjsf/snapshot-tests';
-// import { objectTests } from '@rjsf/snapshot-tests';
+import { arrayTests } from '@snups/rjsf-snapshot-tests'; // OR
+// import { formTests } from '@snups/rjsf-snapshot-tests';
+// import { objectTests } from '@snups/rjsf-snapshot-tests';
 
 import Form from '../src';
 
@@ -105,8 +105,8 @@ If you add a theme-only feature, it is ok to update the appropriate `Xxx.test.ts
 For example:
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import { arrayTests } from '@rjsf/snapshot-tests';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import { arrayTests } from '@snups/rjsf-snapshot-tests';
 
 import Form from '../src';
 
@@ -135,13 +135,13 @@ See the `antd` `Form.test.tsx` for a specific example of this.
 
 ### Code coverage
 
-Code coverage reports are currently available only for the `@rjsf/core` theme package.
+Code coverage reports are currently available only for the `@snups/rjsf-core` theme package.
 They are generated using [nyc](https://github.com/istanbuljs/nyc) each time the `npm test-coverage` script is run.
 The full report can be seen by opening `./coverage/lcov-report/index.html`.
 
 #### Utils and validator-ajv8 code coverage
 
-100% code coverage is required by the `@rjsf/utils` and `@rjsf/validator-ajv8` tests.
+100% code coverage is required by the `@snups/rjsf-utils` and `@snups/rjsf-validator-ajv8` tests.
 If you make changes to those libraries, you will have to maintain that coverage, otherwise the tests will fail.
 
 > NOTE: All three of these directories share the same tests for verifying `validator` based APIs. See the documentation in the `getTestValidator()` functions for more information.

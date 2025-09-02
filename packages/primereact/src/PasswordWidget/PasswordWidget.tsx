@@ -6,7 +6,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Password } from 'primereact/password';
 
 /** The `PasswordWidget` renders a `Password` component

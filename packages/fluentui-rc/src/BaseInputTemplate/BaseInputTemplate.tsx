@@ -9,7 +9,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   labelValue,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 const useStyles = makeStyles({
   input: {

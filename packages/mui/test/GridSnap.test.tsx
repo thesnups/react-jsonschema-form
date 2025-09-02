@@ -1,4 +1,4 @@
-import { gridTests, TEXTAREA_CUSTOMIZE } from '@rjsf/snapshot-tests';
+import { gridTests, TEXTAREA_CUSTOMIZE } from '@snups/rjsf-snapshot-tests';
 
 import Form from '../src';
 import { COMPUTED_STYLE_MOCK, FORM_RENDER_OPTIONS } from './snapshotConstants';

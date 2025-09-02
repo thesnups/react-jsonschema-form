@@ -1,5 +1,5 @@
 import { ChangeEvent, FocusEvent, useCallback } from 'react';
-import { FormContextType, RJSFSchema, StrictRJSFSchema, WidgetProps } from '@rjsf/utils';
+import { FormContextType, RJSFSchema, StrictRJSFSchema, WidgetProps } from '@snups/rjsf-utils';
 
 /** The `RatingWidget` component renders a star or heart rating input with DaisyUI styling
  *

@@ -1,5 +1,5 @@
-import { UiSchema } from '@rjsf/utils';
-import { FormProps } from '@rjsf/core';
+import { UiSchema } from '@snups/rjsf-utils';
+import { FormProps } from '@snups/rjsf-core';
 
 export type UiSchemaForTheme = (theme: string) => UiSchema;
 

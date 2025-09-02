@@ -10,7 +10,7 @@
     <img src="https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/59a8206e148474bea854bbb004f624143fbcbac8/packages/antd/logo.png" alt="Logo" width="120" height="120">
   </a>
 
-  <h3 align="center">@rjsf/antd</h3>
+  <h3 align="center">@snups/rjsf-antd (fork of @rjsf/antd)</h3>
 
   <p align="center">
   Ant Design theme, fields and widgets for <a href="https://github.com/rjsf-team/react-jsonschema-form/"><code>react-jsonschema-form</code></a>.
@@ -61,31 +61,31 @@ Ant Design theme, fields and widgets for `react-jsonschema-form`.
 - `antd >= 5`
 - `@ant-design/icons >= 5`
 - `dayjs >= 1.8.0`
-- `@rjsf/core >= 6`
-- `@rjsf/utils >= 6`
-- `@rjsf/validator-ajv8 >= 6`
+- `@snups/rjsf-core >= 6`
+- `@snups/rjsf-utils >= 6`
+- `@snups/rjsf-validator-ajv8 >= 6`
 
 ```sh
-npm install antd @ant-design/icons dayjs @rjsf/core @rjsf/utils @rjsf/validator-ajv8
+npm install antd @ant-design/icons dayjs @snups/rjsf-core @snups/rjsf-utils @snups/rjsf-validator-ajv8
 ```
 
 ### Installation
 
 ```sh
-npm install @rjsf/antd
+npm install @snups/rjsf-antd
 ```
 
 ## Usage
 
 ```javascript
-import Form from '@rjsf/antd';
+import Form from '@snups/rjsf-antd';
 ```
 
 or
 
 ```javascript
-import { withTheme } from '@rjsf/core';
-import { Theme as AntDTheme } from '@rjsf/antd';
+import { withTheme } from '@snups/rjsf-core';
+import { Theme as AntDTheme } from '@snups/rjsf-antd';
 
 // Make modifications to the theme with your own fields and widgets
 
@@ -121,8 +121,8 @@ GitHub repository: [https://github.com/rjsf-team/react-jsonschema-form](https://
 [contributors-url]: https://github.com/rjsf-team/react-jsonschema-form/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/apache-2.0/
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/antd/latest.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@rjsf/antd
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/antd.svg?style=flat-square
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/antd
+[npm-shield]: https://img.shields.io/npm/v/@snups/rjsf-antd/latest.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@snups/rjsf-antd
+[npm-dl-shield]: https://img.shields.io/npm/dm/@snups/rjsf-antd.svg?style=flat-square
+[npm-dl-url]: https://www.npmjs.com/package/@snups/rjsf-antd
 [product-screenshot]: https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/59a8206e148474bea854bbb004f624143fbcbac8/packages/antd/screenshot.png

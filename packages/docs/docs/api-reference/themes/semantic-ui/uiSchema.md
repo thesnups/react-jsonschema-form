@@ -51,7 +51,7 @@ pointing: determines the direction of the arrow on the error message dialog
 Below are the current defaults
 
 ```tsx
-import { UiSchema } from '@rjsf/utils';
+import { UiSchema } from '@snups/rjsf-utils';
 
 const uiSchema: UiSchema = {
   'ui:options': {
@@ -75,8 +75,8 @@ horizontalButtons: vertical buttons instead of the default horizontal
 ```
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'array',

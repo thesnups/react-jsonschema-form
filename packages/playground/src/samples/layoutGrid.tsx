@@ -1,4 +1,4 @@
-import { LOOKUP_MAP_NAME, RJSFSchema } from '@rjsf/utils';
+import { LOOKUP_MAP_NAME, RJSFSchema } from '@snups/rjsf-utils';
 
 import { Sample } from './Sample';
 

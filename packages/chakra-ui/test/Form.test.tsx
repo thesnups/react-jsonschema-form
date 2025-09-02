@@ -1,4 +1,4 @@
-import { formTests } from '@rjsf/snapshot-tests';
+import { formTests } from '@snups/rjsf-snapshot-tests';
 
 import WrappedForm from './WrappedForm';
 

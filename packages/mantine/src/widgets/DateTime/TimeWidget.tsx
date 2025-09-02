@@ -6,7 +6,7 @@ import {
   WidgetProps,
   labelValue,
   ariaDescribedByIds,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { TimeInput } from '@mantine/dates';
 
 /** The `TimeWidget` component uses the `TimeInput` component from `@mantine/dates` for rendering.

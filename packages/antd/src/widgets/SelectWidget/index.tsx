@@ -8,7 +8,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import isString from 'lodash/isString';
 import { DefaultOptionType } from 'antd/es/select';
 import { useMemo } from 'react';

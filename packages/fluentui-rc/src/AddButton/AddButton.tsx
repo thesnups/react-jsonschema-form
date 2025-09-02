@@ -1,4 +1,4 @@
-import { FormContextType, IconButtonProps, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@rjsf/utils';
+import { FormContextType, IconButtonProps, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@snups/rjsf-utils';
 import { Button } from '@fluentui/react-components';
 import { AddRegular } from '@fluentui/react-icons';
 

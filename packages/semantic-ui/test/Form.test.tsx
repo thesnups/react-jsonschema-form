@@ -1,7 +1,7 @@
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 import renderer from 'react-test-renderer';
-import { formTests } from '@rjsf/snapshot-tests';
+import { formTests } from '@snups/rjsf-snapshot-tests';
 
 import Form from '../src';
 

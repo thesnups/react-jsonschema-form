@@ -1,6 +1,6 @@
 # Chakra-UI Customization
 
-When using `@rjsf/chakra-ui` there are a couple of ways to customize the feel of the form.
+When using `@snups/rjsf-chakra-ui` there are a couple of ways to customize the feel of the form.
 
 ## Styling
 

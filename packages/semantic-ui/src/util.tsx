@@ -7,7 +7,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   UIOptionsType,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 export type SemanticPropsTypes<T = any, S extends StrictRJSFSchema = RJSFSchema, F extends FormContextType = any> = {
   formContext?: F;

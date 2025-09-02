@@ -9,7 +9,7 @@ import {
   StrictRJSFSchema,
   titleId,
   buttonId,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 /** The `ObjectFieldTemplate` component renders a layout for object fields in the form
  * with DaisyUI styling. It handles:

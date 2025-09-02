@@ -1,4 +1,10 @@
-import { FormContextType, getSubmitButtonOptions, RJSFSchema, StrictRJSFSchema, SubmitButtonProps } from '@rjsf/utils';
+import {
+  FormContextType,
+  getSubmitButtonOptions,
+  RJSFSchema,
+  StrictRJSFSchema,
+  SubmitButtonProps,
+} from '@snups/rjsf-utils';
 import { Button, makeStyles, tokens } from '@fluentui/react-components';
 
 const useStyles = makeStyles({

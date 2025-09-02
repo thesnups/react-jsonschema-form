@@ -1,7 +1,7 @@
 import { ComponentType } from 'react';
 
-import { FormProps, withTheme } from '@rjsf/core';
-import { FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { FormProps, withTheme } from '@snups/rjsf-core';
+import { FormContextType, RJSFSchema, StrictRJSFSchema } from '@snups/rjsf-utils';
 
 import { generateTheme } from '../Theme';
 

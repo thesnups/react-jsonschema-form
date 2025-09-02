@@ -9,7 +9,7 @@ import {
   getUiOptions,
   titleId,
   buttonId,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 /** The `ObjectFieldTemplate` is the template to use to render all the inner properties of an object along with the
  * title and description if available. If the object is expandable, then an `AddButton` is also rendered after all

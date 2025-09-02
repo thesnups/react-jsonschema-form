@@ -6,7 +6,7 @@ import {
   StrictRJSFSchema,
   TranslatableString,
   WrapIfAdditionalTemplateProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { FocusEvent } from 'react';
 
 import { Input } from '../components/ui/input';

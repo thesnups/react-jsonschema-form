@@ -17,7 +17,7 @@ import {
   TranslatableString,
   UiSchema,
   ITEMS_KEY,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import cloneDeep from 'lodash/cloneDeep';
 import get from 'lodash/get';
 import isObject from 'lodash/isObject';

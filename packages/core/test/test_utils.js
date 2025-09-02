@@ -5,7 +5,7 @@ import { render, fireEvent, act } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import sinon from 'sinon';
 import { findDOMNode } from 'react-dom';
-import validator from '@rjsf/validator-ajv8';
+import validator from '@snups/rjsf-validator-ajv8';
 
 import Form from '../src';
 

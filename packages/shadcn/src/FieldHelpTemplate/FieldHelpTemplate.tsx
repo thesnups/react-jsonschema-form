@@ -1,4 +1,4 @@
-import { FieldHelpProps, FormContextType, RJSFSchema, StrictRJSFSchema, helpId } from '@rjsf/utils';
+import { FieldHelpProps, FormContextType, RJSFSchema, StrictRJSFSchema, helpId } from '@snups/rjsf-utils';
 
 import { cn } from '../lib/utils';
 

@@ -10,7 +10,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { OptionsOrGroups } from 'chakra-react-select';
 import { createListCollection, SelectValueChangeDetails, Select as ChakraSelect } from '@chakra-ui/react';
 

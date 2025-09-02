@@ -5,7 +5,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   titleId,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 /** The `ArrayFieldTitleTemplate` component renders a header for the array.
  *

@@ -5,7 +5,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { InputNumber, InputNumberChangeEvent } from 'primereact/inputnumber';
 
 /** The `UpDownWidget` renders an input component for a number.

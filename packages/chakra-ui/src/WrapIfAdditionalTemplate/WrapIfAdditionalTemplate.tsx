@@ -7,7 +7,7 @@ import {
   StrictRJSFSchema,
   TranslatableString,
   WrapIfAdditionalTemplateProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Grid, GridItem, Input } from '@chakra-ui/react';
 
 import { Field } from '../components/ui/field';

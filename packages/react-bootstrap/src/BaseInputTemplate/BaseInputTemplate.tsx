@@ -8,7 +8,7 @@ import {
   getInputProps,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 export default function BaseInputTemplate<
   T = any,

@@ -6,7 +6,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { AutoComplete, AutoCompleteCompleteEvent } from 'primereact/autocomplete';
 
 /** The `AutoCompleteWidget` is a widget for rendering a field with options.

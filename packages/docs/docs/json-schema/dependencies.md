@@ -11,8 +11,8 @@ This library supports conditionally making fields required based on the presence
 In the following example the `billing_address` field will be required if `credit_card` is defined.
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'object',
@@ -39,8 +39,8 @@ In the following example the `billing_address` field will be required if `credit
 field will be required if `billing_address` is defined, making them both required if either is defined.
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'object',
@@ -71,8 +71,8 @@ This library also supports modifying portions of a schema based on form data.
 ### Conditional
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'object',
@@ -106,8 +106,8 @@ _(Sample schemas courtesy of the [Space Telescope Science Institute](https://spa
 The JSON Schema standard says that the dependency is triggered if the property is present. However, sometimes it's useful to have more sophisticated rules guiding the application of the dependency. For example, maybe you have three possible values for a field, and each one should lead to adding a different question. For this, we support a very restricted use of the `oneOf` keyword.
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   title: 'Person',

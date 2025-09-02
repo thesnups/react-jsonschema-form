@@ -1,4 +1,4 @@
-import { FormContextType, IconButtonProps, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@rjsf/utils';
+import { FormContextType, IconButtonProps, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@snups/rjsf-utils';
 import { ChevronDown, ChevronUp, Copy, Trash2 } from 'lucide-react';
 import type { VariantProps } from 'class-variance-authority';
 

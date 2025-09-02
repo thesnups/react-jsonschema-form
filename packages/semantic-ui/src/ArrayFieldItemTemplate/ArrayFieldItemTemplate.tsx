@@ -6,7 +6,7 @@ import {
   StrictRJSFSchema,
   getUiOptions,
   getTemplate,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Button, Grid, Segment } from 'semantic-ui-react';
 
 import { MaybeWrap } from '../util';

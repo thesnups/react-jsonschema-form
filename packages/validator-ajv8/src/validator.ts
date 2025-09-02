@@ -13,7 +13,7 @@ import {
   ValidatorType,
   withIdRefPrefix,
   hashForSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 import { CustomValidatorOptionsType, Localizer } from './types';
 import createAjvInstance from './createAjvInstance';

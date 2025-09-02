@@ -6,7 +6,7 @@ import {
   getInputProps,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { ChangeEvent, FocusEvent } from 'react';
 
 import { Input } from '../components/ui/input';

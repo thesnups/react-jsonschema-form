@@ -11,7 +11,7 @@
     <img src="./logo.png" alt="Logo" width="340">
   </a>
 
-  <h3 align="center">@rjsf/chakra-ui</h3>
+  <h3 align="center">@snups/rjsf-chakra-ui (fork of @rjsf/chakra-ui)</h3>
 
   <p align="center">
   Chakra UI theme, fields and widgets for <a href="https://github.com/rjsf-team/react-jsonschema-form/"><code>react-jsonschema-form</code></a>.
@@ -48,7 +48,7 @@
 
 ## About The Project
 
-[![@rjsf/chakra-ui Screen Shot][product-screenshot]](https://rjsf-team.github.io/@rjsf/chakra-ui)
+[![@snups/rjsf-chakra-ui Screen Shot][product-screenshot]](https://rjsf-team.github.io/@snups/rjsf-chakra-ui)
 
 Exports `chakra-ui` theme, fields and widgets for `react-jsonschema-form`.
 
@@ -66,9 +66,9 @@ Exports `chakra-ui` theme, fields and widgets for `react-jsonschema-form`.
 
 - `@chakra-ui/react >= 3`
 - `chakra-react-select >= 6`
-- `@rjsf/core >= 6`
-- `@rjsf/utils >= 6`
-- `@rjsf/validator-ajv8 >= 6`
+- `@snups/rjsf-core >= 6`
+- `@snups/rjsf-utils >= 6`
+- `@snups/rjsf-validator-ajv8 >= 6`
 
 Refer to the [rjsf installation guide](https://rjsf-team.github.io/react-jsonschema-form/docs/#installation) and [chakra-ui installation guide](https://chakra-ui.com/docs/getting-started#installation) and for more details.
 
@@ -77,26 +77,26 @@ Refer to the [rjsf installation guide](https://rjsf-team.github.io/react-jsonsch
 ### Installation
 
 ```bash
-yarn add @chakra-ui/react chakra-react-select @rjsf/core @rjsf/utils @rjsf/validator-ajv8
+yarn add @chakra-ui/react chakra-react-select @snups/rjsf-core @snups/rjsf-utils @snups/rjsf-validator-ajv8
 ```
 
 ## Usage
 
 ```bash
-yarn add @rjsf/chakra-ui
+yarn add @snups/rjsf-chakra-ui
 ```
 
 <!-- USAGE EXAMPLES -->
 
 ```js
-import Form from '@rjsf/chakra-ui';
+import Form from '@snups/rjsf-chakra-ui';
 ```
 
 or
 
 ```js
-import { withTheme } from '@rjsf/core';
-import { Theme as ChakraUITheme } from '@rjsf/chakra-ui';
+import { withTheme } from '@snups/rjsf-core';
+import { Theme as ChakraUITheme } from '@snups/rjsf-chakra-ui';
 
 // Make modifications to the theme with your own fields and widgets
 
@@ -157,8 +157,8 @@ GitHub repository: [https://github.com/rjsf-team/react-jsonschema-form](https://
 [contributors-url]: https://github.com/rjsf-team/react-jsonschema-form/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/apache-2.0/
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/chakra-ui/latest.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@rjsf/chakra-ui
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/chakra-ui.svg?style=flat-square
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/chakra-ui
+[npm-shield]: https://img.shields.io/npm/v/@snups/rjsf-chakra-ui/latest.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@snups/rjsf-chakra-ui
+[npm-dl-shield]: https://img.shields.io/npm/dm/@snups/rjsf-chakra-ui.svg?style=flat-square
+[npm-dl-url]: https://www.npmjs.com/package/@snups/rjsf-chakra-ui
 [product-screenshot]: ./screenshot.png

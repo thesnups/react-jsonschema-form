@@ -5,8 +5,8 @@ import { fireEvent, act, render, waitFor } from '@testing-library/react';
 import { Simulate } from 'react-dom/test-utils';
 import { findDOMNode } from 'react-dom';
 import { Portal } from 'react-portal';
-import { getTemplate, getUiOptions } from '@rjsf/utils';
-import validator, { customizeValidator } from '@rjsf/validator-ajv8';
+import { getTemplate, getUiOptions } from '@snups/rjsf-utils';
+import validator, { customizeValidator } from '@snups/rjsf-validator-ajv8';
 
 import Form from '../src';
 import {

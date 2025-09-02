@@ -15,20 +15,20 @@ export default defineConfig({
     preserveSymlinks: true, // Fixes https://github.com/rjsf-team/react-jsonschema-form/issues/3228
     alias: {
       // mapping packages in monorepo to make vite use sources directly avoiding build step
-      '@rjsf/antd': path.resolve(__dirname, '../antd/src'),
-      '@rjsf/chakra-ui': path.resolve(__dirname, '../chakra-ui/src'),
-      '@rjsf/core': path.resolve(__dirname, '../core/src'),
-      '@rjsf/fluentui-rc': path.resolve(__dirname, '../fluentui-rc/src'),
-      '@rjsf/mantine': path.resolve(__dirname, '../mantine/src'),
-      '@rjsf/mui': path.resolve(__dirname, '../mui/src'),
-      '@rjsf/primereact': path.resolve(__dirname, '../primereact/src'),
-      '@rjsf/react-bootstrap': path.resolve(__dirname, '../react-bootstrap/src'),
-      '@rjsf/semantic-ui': path.resolve(__dirname, '../semantic-ui/src'),
-      '@rjsf/shadcn': path.resolve(__dirname, '../shadcn/src'),
+      '@snups/rjsf-antd': path.resolve(__dirname, '../antd/src'),
+      '@snups/rjsf-chakra-ui': path.resolve(__dirname, '../chakra-ui/src'),
+      '@snups/rjsf-core': path.resolve(__dirname, '../core/src'),
+      '@snups/rjsf-fluentui-rc': path.resolve(__dirname, '../fluentui-rc/src'),
+      '@snups/rjsf-mantine': path.resolve(__dirname, '../mantine/src'),
+      '@snups/rjsf-mui': path.resolve(__dirname, '../mui/src'),
+      '@snups/rjsf-primereact': path.resolve(__dirname, '../primereact/src'),
+      '@snups/rjsf-react-bootstrap': path.resolve(__dirname, '../react-bootstrap/src'),
+      '@snups/rjsf-semantic-ui': path.resolve(__dirname, '../semantic-ui/src'),
+      '@snups/rjsf-shadcn': path.resolve(__dirname, '../shadcn/src'),
       // We want to pick up the browser version of the utils
-      '@rjsf/utils': path.resolve(__dirname, '../utils/src'),
-      '@rjsf/validator-ajv8': path.resolve(__dirname, '../validator-ajv8/src'),
-      '@rjsf/daisyui': path.resolve(__dirname, '../daisyui/src'),
+      '@snups/rjsf-utils': path.resolve(__dirname, '../utils/src'),
+      '@snups/rjsf-validator-ajv8': path.resolve(__dirname, '../validator-ajv8/src'),
+      '@snups/rjsf-daisyui': path.resolve(__dirname, '../daisyui/src'),
     },
   },
 });

@@ -11,7 +11,7 @@ import {
   dateRangeOptions,
   DateObject as RJSFDateObject,
   Registry,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 /** Interface for date object with optional string fields for each date/time component */
 interface DateObject {

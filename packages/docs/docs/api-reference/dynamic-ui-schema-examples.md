@@ -5,7 +5,7 @@
 ### Example 1: Traditional Static uiSchema (No Changes Required)
 
 ```typescript
-import { UiSchema } from '@rjsf/utils';
+import { UiSchema } from '@snups/rjsf-utils';
 
 // This continues to work exactly as before
 const uiSchema: UiSchema = {
@@ -22,7 +22,7 @@ const uiSchema: UiSchema = {
 ### Example 2: Dynamic uiSchema with Function
 
 ```typescript
-import { UiSchema, FormContextType } from '@rjsf/utils';
+import { UiSchema, FormContextType } from '@snups/rjsf-utils';
 
 interface GuestData {
   name?: string;
@@ -83,7 +83,7 @@ const uiSchema: UiSchema = {
 ### Example 3: Using Form Context
 
 ```typescript
-import { UiSchema, FormContextType } from '@rjsf/utils';
+import { UiSchema, FormContextType } from '@snups/rjsf-utils';
 
 interface ParticipantData {
   name?: string;
@@ -115,7 +115,7 @@ const uiSchema: UiSchema<any, any, MyFormContext> = {
 ### Example 4: Falsy Return Values
 
 ```typescript
-import { UiSchema, FormContextType } from '@rjsf/utils';
+import { UiSchema, FormContextType } from '@snups/rjsf-utils';
 
 interface ItemData {
   needsCustomUI?: boolean;
@@ -147,7 +147,7 @@ const uiSchema: UiSchema = {
 For fixed/tuple arrays (where schema.items is an array), the dynamic function can be applied to each position:
 
 ```typescript
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
 
 interface DetailsData {
   age?: number;
@@ -187,7 +187,7 @@ const uiSchema: UiSchema = {
 ## Schema Example
 
 ```typescript
-import { RJSFSchema } from '@rjsf/utils';
+import { RJSFSchema } from '@snups/rjsf-utils';
 
 const schema: RJSFSchema = {
   type: 'object',
@@ -248,8 +248,8 @@ Example of a performance-optimized approach:
 
 ```typescript
 import React, { PropsWithChildren, useMemo } from 'react';
-import Form from '@rjsf/core';
-import { RJSFSchema, UiSchema, FormContextType, IChangeEvent } from '@rjsf/utils';
+import Form from '@snups/rjsf-core';
+import { RJSFSchema, UiSchema, FormContextType, IChangeEvent } from '@snups/rjsf-utils';
 
 interface ItemData {
   type?: string;

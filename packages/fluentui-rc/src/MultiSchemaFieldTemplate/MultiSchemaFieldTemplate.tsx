@@ -1,5 +1,5 @@
 import { makeStyles } from '@fluentui/react-components';
-import { FormContextType, MultiSchemaFieldTemplateProps, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { FormContextType, MultiSchemaFieldTemplateProps, RJSFSchema, StrictRJSFSchema } from '@snups/rjsf-utils';
 
 const useStyles = makeStyles({
   root: {

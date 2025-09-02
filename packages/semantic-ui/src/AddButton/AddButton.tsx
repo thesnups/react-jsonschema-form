@@ -1,5 +1,5 @@
 import { Button, Icon, ButtonProps } from 'semantic-ui-react';
-import { FormContextType, IconButtonProps, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@rjsf/utils';
+import { FormContextType, IconButtonProps, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@snups/rjsf-utils';
 
 /** The `AddButton` renders a button that represent the `Add` action on a form
  */

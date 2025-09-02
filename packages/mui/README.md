@@ -11,7 +11,7 @@
     <img src="https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/7ebc86621d8df8c21f0c39bcca6d476f6f7a2051/packages/mui/logo.png" alt="Logo" width="120" height="120">
   </a>
 
-  <h3 align="center">@rjsf/mui</h3>
+  <h3 align="center">@snups/rjsf-mui (fork of @rjsf/mui)</h3>
 
   <p align="center">
   Material UI theme, fields and widgets for <a href="https://github.com/rjsf-team/react-jsonschema-form/"><code>react-jsonschema-form</code></a>.
@@ -47,7 +47,7 @@
 
 ## About The Project
 
-[![@rjsf/mui Screen Shot][product-screenshot]](https://rjsf-team.github.io/@rjsf/mui)
+[![@snups/rjsf-mui Screen Shot][product-screenshot]](https://rjsf-team.github.io/@snups/rjsf-mui)
 
 Exports `MUI` version 5 theme, fields, and widgets for `react-jsonschema-form`.
 
@@ -69,18 +69,18 @@ NOTE: Material UI 7 requires React 18, so you will need to upgrade
 - `@mui/icons-material >= 7`
 - `@emotion/react >= 11`
 - `@emotion/styled >= 11`
-- `@rjsf/core >= 6`
-- `@rjsf/utils >= 6`
-- `@rjsf/validator-ajv8 >= 6`
+- `@snups/rjsf-core >= 6`
+- `@snups/rjsf-utils >= 6`
+- `@snups/rjsf-validator-ajv8 >= 6`
 
 ```bash
-yarn add @mui/material @mui/icons-material @emotion/react @emotion/styled @rjsf/core @rjsf/utils @rjsf/validator-ajv8
+yarn add @mui/material @mui/icons-material @emotion/react @emotion/styled @snups/rjsf-core @snups/rjsf-utils @snups/rjsf-validator-ajv8
 ```
 
 ### Installation
 
 ```bash
-yarn add @rjsf/mui
+yarn add @snups/rjsf-mui
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -90,14 +90,14 @@ yarn add @rjsf/mui
 ### Material UI version 7
 
 ```js
-import Form from '@rjsf/mui';
+import Form from '@snups/rjsf-mui';
 ```
 
 or
 
 ```js
-import { withTheme } from '@rjsf/core';
-import { Theme } from '@rjsf/mui';
+import { withTheme } from '@snups/rjsf-core';
+import { Theme } from '@snups/rjsf-mui';
 
 // Make modifications to the theme with your own fields and widgets
 
@@ -133,8 +133,8 @@ GitHub repository: [https://github.com/rjsf-team/react-jsonschema-form](https://
 [contributors-url]: https://github.com/rjsf-team/react-jsonschema-form/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/apache-2.0/
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/mui/latest.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@rjsf/mui
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/mui.svg?style=flat-square
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/mui
+[npm-shield]: https://img.shields.io/npm/v/@snups/rjsf-mui/latest.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@snups/rjsf-mui
+[npm-dl-shield]: https://img.shields.io/npm/dm/@snups/rjsf-mui.svg?style=flat-square
+[npm-dl-url]: https://www.npmjs.com/package/@snups/rjsf-mui
 [product-screenshot]: https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/e2e1181d1020f18cad0c80c661ddae28edb9794e/packages/mui/screenshot.png

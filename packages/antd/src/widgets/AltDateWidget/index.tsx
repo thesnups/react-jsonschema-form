@@ -14,7 +14,7 @@ import {
   TranslatableString,
   WidgetProps,
   DateElementFormat,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 type DateElementProps<T = any, S extends StrictRJSFSchema = RJSFSchema, F extends FormContextType = any> = Pick<
   WidgetProps<T, S, F>,

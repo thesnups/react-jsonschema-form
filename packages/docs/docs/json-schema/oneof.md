@@ -9,8 +9,8 @@ react-jsonschema-form supports custom widgets for oneOf, anyOf, and allOf.
 ## oneOf
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'object',
@@ -40,8 +40,8 @@ render(<Form schema={schema} validator={validator} />, document.getElementById('
 ## anyOf
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'object',
@@ -75,8 +75,8 @@ render(<Form schema={schema} validator={validator} />, document.getElementById('
 When `allOf` is specified in a schema, react-jsonschema-form uses the [json-schema-merge-allof](https://github.com/mokkabonna/json-schema-merge-allof) library to merge the specified subschemas to create a combined subschema that is valid. For example, the below schema evaluates to a combined subschema of `{type: "boolean"}`:
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   title: 'Field',

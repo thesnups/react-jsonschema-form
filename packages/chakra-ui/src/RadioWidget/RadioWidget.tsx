@@ -10,7 +10,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 import { Field } from '../components/ui/field';
 import { Radio, RadioGroup } from '../components/ui/radio';

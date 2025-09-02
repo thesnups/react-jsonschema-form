@@ -10,7 +10,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   TranslatableString,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import isObject from 'lodash/isObject';
 
 /** The `BooleanField` component is used to render a field in the schema is boolean. It constructs `enumOptions` for the

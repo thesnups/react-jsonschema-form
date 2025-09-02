@@ -7,7 +7,7 @@ import {
   StrictRJSFSchema,
   WidgetProps,
   titleId,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Slider, Input } from '@mantine/core';
 
 import { cleanupOptions } from '../utils';

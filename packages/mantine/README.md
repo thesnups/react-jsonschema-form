@@ -11,7 +11,7 @@
     <img src="https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/59a8206e148474bea854bbb004f624143fbcbac8/packages/mantine/logo.png" alt="Logo" width="120" height="120">
   </a>
 
-  <h3 align="center">rjsf-mantine</h3>
+  <h3 align="center">@snups/rjsf-mantine (fork of @rjsf/mantine)</h3>
 
   <p align="center">
   Mantine theme, fields and widgets for <a href="https://github.com/rjsf-team/react-jsonschema-form/"><code>react-jsonschema-form</code></a>.
@@ -67,16 +67,16 @@
 - `@mantine/hooks >= 8`
 - `@mantine/dates >= 8`
 - `dayjs >= 1.8.0`
-- `@rjsf/core >= 6.0.0`
+- `@snups/rjsf-core >= 6.0.0`
 
 ```sh
-npm install @mantine/core @mantine/hooks @mantine/dates dayjs @rjsf/core
+npm install @mantine/core @mantine/hooks @mantine/dates dayjs @snups/rjsf-core
 ```
 
 ### Installation
 
 ```sh
-npm install @rjsf/mantine
+npm install @snups/rjsf-mantine
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -84,14 +84,14 @@ npm install @rjsf/mantine
 ## Usage
 
 ```javascript
-import Form from '@rjsf/mantine';
+import Form from '@snups/rjsf-mantine';
 ```
 
 or
 
 ```javascript
-import { withTheme } from '@rjsf/core';
-import { Theme as MantineTheme } from '@rjsf/mantine';
+import { withTheme } from '@snups/rjsf-core';
+import { Theme as MantineTheme } from '@snups/rjsf-mantine';
 
 // Make modifications to the theme with your own fields and widgets
 
@@ -146,8 +146,8 @@ GitHub repository: [https://github.com/rjsf-team/react-jsonschema-form](https://
 [contributors-url]: https://github.com/rjsf-team/react-jsonschema-form/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/apache-2.0/
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/mantine/latest.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@rjsf/mantine
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/mantine.svg?style=flat-square
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/mantine
+[npm-shield]: https://img.shields.io/npm/v/@snups/rjsf-mantine/latest.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@snups/rjsf-mantine
+[npm-dl-shield]: https://img.shields.io/npm/dm/@snups/rjsf-mantine.svg?style=flat-square
+[npm-dl-url]: https://www.npmjs.com/package/@snups/rjsf-mantine
 [product-screenshot]: https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/59a8206e148474bea854bbb004f624143fbcbac8/packages/mantine/screenshot.png

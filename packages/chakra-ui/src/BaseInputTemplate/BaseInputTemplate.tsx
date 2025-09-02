@@ -9,7 +9,7 @@ import {
   getInputProps,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 import { Field } from '../components/ui/field';
 import { getChakra } from '../utils';

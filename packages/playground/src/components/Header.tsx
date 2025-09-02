@@ -6,9 +6,9 @@ import {
   PropsWithChildren,
   SetStateAction,
 } from 'react';
-import Form, { IChangeEvent } from '@rjsf/core';
-import { RJSFSchema, UiSchema, ValidatorType } from '@rjsf/utils';
-import localValidator from '@rjsf/validator-ajv8';
+import Form, { IChangeEvent } from '@snups/rjsf-core';
+import { RJSFSchema, UiSchema, ValidatorType } from '@snups/rjsf-utils';
+import localValidator from '@snups/rjsf-validator-ajv8';
 import base64 from '../utils/base64';
 
 import CopyLink from './CopyLink';

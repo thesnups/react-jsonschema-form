@@ -8,7 +8,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Select, MultiSelect } from '@mantine/core';
 
 import { cleanupOptions } from '../utils';

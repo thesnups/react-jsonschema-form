@@ -1,5 +1,5 @@
 import { ChangeEvent, PropsWithChildren, useCallback, useState } from 'react';
-import { FieldProps } from '@rjsf/utils';
+import { FieldProps } from '@snups/rjsf-utils';
 
 const COLORS = ['red', 'green', 'blue'];
 

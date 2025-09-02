@@ -7,7 +7,7 @@ import {
   UiSchema,
   getTestIds,
   getUiOptions,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import Markdown from 'markdown-to-jsx';
 
 const TEST_IDS = getTestIds();

@@ -8,7 +8,7 @@ import {
   StrictRJSFSchema,
   WidgetProps,
   GenericObjectType,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 /** The `CheckBoxWidget` is a widget for rendering boolean properties.
  *  It is typically used to represent a boolean.

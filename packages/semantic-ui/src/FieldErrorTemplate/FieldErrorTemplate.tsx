@@ -1,4 +1,4 @@
-import { errorId, FieldErrorProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { errorId, FieldErrorProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@snups/rjsf-utils';
 import uniqueId from 'lodash/uniqueId';
 import { Label, List } from 'semantic-ui-react';
 

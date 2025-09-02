@@ -12,7 +12,7 @@
  * - Manages theme persistence through localStorage
  * - Wraps content in a themed container
  *
- * NOTE: This is an internal component only used by @rjsf/playground (no
+ * NOTE: This is an internal component only used by @snups/rjsf-playground (no
  * backwards compatibility guarantees!)
  */
 

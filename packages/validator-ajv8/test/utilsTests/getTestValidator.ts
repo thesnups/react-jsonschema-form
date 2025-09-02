@@ -1,6 +1,6 @@
-import { CustomValidator, ErrorTransformer, RJSFSchema, ValidationData } from '@rjsf/utils';
+import { CustomValidator, ErrorTransformer, RJSFSchema, ValidationData } from '@snups/rjsf-utils';
 // With Lerna active, the test world has access to the test suite via the symlink
-import { TestValidatorType } from '@rjsf/utils/test/schema';
+import { TestValidatorType } from '@snups/rjsf-utils/test/schema';
 import { customizeValidator, CustomValidatorOptionsType } from '../../src';
 
 /** In this environment, a test validator merely creates an internal `AJV8` validator with the custom `options` and

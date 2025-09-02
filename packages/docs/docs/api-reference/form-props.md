@@ -29,9 +29,9 @@ You can provide custom buttons to your form via the `Form` component's `children
 For other ways to modify the default `Submit` button, see both the [Submit Button Options](./uiSchema.md#submitbuttonoptions) and the [SubmitButton Template](../advanced-customization/custom-templates.md#submitbutton) documentation.
 
 ```tsx
-import { Form } from '@rjsf/core';
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-core';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'string',
@@ -61,7 +61,7 @@ See [Validation](../usage/validation.md) for more information.
 Experimental features to specify different form state behavior.
 Currently, this only affects the handling of optional array fields where `minItems` is set and handling of setting defaults based on the value of `emptyObjectFields`.
 
-> **Warning:** This API is experimental and unstable, therefore breaking changes may be shipped in minor or patch releases. If you want to use this feature, we recommend pinning exact versions of `@rjsf/\*` packages in your package.json file or be ready to update your use of it when necessary.
+> **Warning:** This API is experimental and unstable, therefore breaking changes may be shipped in minor or patch releases. If you want to use this feature, we recommend pinning exact versions of `@snups/rjsf-\*` packages in your package.json file or be ready to update your use of it when necessary.
 
 The following subsections represent the different keys in this object, with the tables explaining the values and their meanings.
 
@@ -103,8 +103,8 @@ If the function returns `false`, the array will be populated with default values
 ##### Example
 
 ```tsx
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'object',
@@ -162,9 +162,9 @@ Optional enumerated flag controlling how empty object fields are populated, defa
 | `skipEmptyDefaults`        | Does not set an empty default. It will still apply the default value if a default property is defined in your schema        |
 
 ```tsx
-import { Form } from '@rjsf/core';
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-core';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'array',
@@ -194,9 +194,9 @@ Optional enumerated flag controlling how empty defaults are populated when `allO
 | `populateDefaults` | Generate default values for properties in the `allOf` schema including `if-then-else` syntax |
 
 ```tsx
-import { Form } from '@rjsf/core';
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-core';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   title: 'Example',
@@ -281,8 +281,8 @@ If you're looking for alternative `allOf` merging implementations, you might con
 **Warning:** This is an experimental feature. Only use this if you fully understand the implications of custom `allOf` merging and are prepared to handle potential edge cases. Incorrect implementations may lead to unexpected behavior or validation errors.
 
 ```tsx
-import { Form } from '@rjsf/core';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-core';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const customMergeAllOf = (schema: RJSFSchema): RJSFSchema => {
   // Your custom implementation here
@@ -299,9 +299,9 @@ render(
 It's possible to disable the whole form by setting the `disabled` prop. The `disabled` prop is then forwarded down to each field of the form.
 
 ```tsx
-import { Form } from '@rjsf/core';
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-core';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'string',
@@ -317,9 +317,9 @@ If you just want to disable some fields, see the `ui:disabled` parameter in `uiS
 It's possible to make the whole form read-only by setting the `readonly` prop. The `readonly` prop is then forwarded down to each field of the form.
 
 ```tsx
-import { Form } from '@rjsf/core';
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-core';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'string',
@@ -355,9 +355,9 @@ If set to true, then the first field with an error will receive the focus when t
 You can also provide a custom callback function to handle what happens when this function is called.
 
 ```tsx
-import { Form } from '@rjsf/core';
-import { RJSFSchema, RJSFValidationError } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-core';
+import { RJSFSchema, RJSFValidationError } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'string',
@@ -390,9 +390,9 @@ The value of this prop will be passed to the `id` [HTML attribute on the form](h
 To avoid collisions with existing ids in the DOM, it is possible to change the prefix used for ids (the default is `root`).
 
 ```tsx
-import { Form } from '@rjsf/core';
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-core';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'string',
@@ -408,9 +408,9 @@ This will render `<input id="rjsf_prefix_key">` instead of `<input id="root_key"
 To avoid using a path separator that is present in field names, it is possible to change the separator used for ids (the default is `_`).
 
 ```tsx
-import { Form } from '@rjsf/core';
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-core';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'object',
@@ -471,9 +471,9 @@ In the case of adding/removing of new fields in arrays or objects with `addition
 To react when submitted form data are invalid, pass an `onError` handler. It will be passed the list of encountered errors:
 
 ```tsx
-import { Form } from '@rjsf/core';
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-core';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'string',
@@ -494,9 +494,9 @@ It will be passed a result object having a `formData` attribute, which is the va
 The original event will also be passed as a second parameter:
 
 ```tsx
-import { Form } from '@rjsf/core';
-import { RJSFSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-core';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = {
   type: 'string',
@@ -563,7 +563,7 @@ One could use this function to alter one or more of the existing english strings
 Below is an example of changing a few of the english strings to something else:
 
 ```ts
-import { TranslatableString, englishStringTranslator, replaceStringParameters } from '@rjsf/utils';
+import { TranslatableString, englishStringTranslator, replaceStringParameters } from '@snups/rjsf-utils';
 
 function fixupSomeEnglishStrings(stringToTranslate: TranslatableString, params?: string[]): string {
   switch (stringToTranslate) {
@@ -584,7 +584,7 @@ Form uiSchema. See [uiSchema Reference](uiSchema.md) for more information.
 ## validator
 
 **Required**! An implementation of the `ValidatorType` interface that is needed for form validation to work.
-`@rjsf/validator-ajv8` exports the implementation of this interface from RJSF version 4.
+`@snups/rjsf-validator-ajv8` exports the implementation of this interface from RJSF version 4.
 
 ## widgets
 

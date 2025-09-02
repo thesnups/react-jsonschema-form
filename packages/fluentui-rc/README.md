@@ -10,7 +10,7 @@
     <img src="https://github.com/rjsf-team/react-jsonschema-form/blob/main/packages/fluentui-rc/logo.png?raw=true" alt="Logo" width="120" height="120">
   </a>
 
-  <h3 align="center">@rjsf/fluentui-rc</h3>
+  <h3 align="center">@snups/rjsf-fluentui-rc (fork of @rjsf/fluentui-rc)</h3>
 
   <p align="center">
     Fluent UI React Components (v9) theme, fields and widgets for <a href="https://github.com/rjsf-team/react-jsonschema-form/"><code>react-jsonschema-form</code></a>.
@@ -62,18 +62,18 @@ Fluent UI React Components (v9) theme, fields and widgets for `react-jsonschema-
 - `@fluentui/react-components >= 9`
 - `@fluentui/react-icons >= 2`
 - `@fluentui/react-migration-v0-v9 >= 9`
-- `@rjsf/core >= 6`
-- `@rjsf/utils >= 6`
-- `@rjsf/validator-ajv8 >= 6`
+- `@snups/rjsf-core >= 6`
+- `@snups/rjsf-utils >= 6`
+- `@snups/rjsf-validator-ajv8 >= 6`
 
 ```bash
-yarn add @fluentui/react-components @fluentui/react-icons @fluentui/react-migration-v0-v9 @rjsf/core @rjsf/utils @rjsf/validator-ajv8
+yarn add @fluentui/react-components @fluentui/react-icons @fluentui/react-migration-v0-v9 @snups/rjsf-core @snups/rjsf-utils @snups/rjsf-validator-ajv8
 ```
 
 ### Installation
 
 ```bash
-yarn add @rjsf/fluentui-rc
+yarn add @snups/rjsf-fluentui-rc
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -81,14 +81,14 @@ yarn add @rjsf/fluentui-rc
 ## Usage
 
 ```js
-import Form from '@rjsf/fluentui-rc';
+import Form from '@snups/rjsf-fluentui-rc';
 ```
 
 or
 
 ```js
-import { withTheme } from '@rjsf/core';
-import { Theme as FluentUIRCTheme } from '@rjsf/fluentui-rc';
+import { withTheme } from '@snups/rjsf-core';
+import { Theme as FluentUIRCTheme } from '@snups/rjsf-fluentui-rc';
 
 // Make modifications to the theme with your own fields and widgets
 
@@ -124,8 +124,8 @@ GitHub repository: [https://github.com/rjsf-team/react-jsonschema-form](https://
 [contributors-url]: https://github.com/rjsf-team/react-jsonschema-form/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/apache-2.0/
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/fluentui-rc/latest.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@rjsf/fluentui-rc
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/fluentui-rc.svg?style=flat-square
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/fluentui-rc
+[npm-shield]: https://img.shields.io/npm/v/@snups/rjsf-fluentui-rc/latest.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@snups/rjsf-fluentui-rc
+[npm-dl-shield]: https://img.shields.io/npm/dm/@snups/rjsf-fluentui-rc.svg?style=flat-square
+[npm-dl-url]: https://www.npmjs.com/package/@snups/rjsf-fluentui-rc
 [product-screenshot]: https://github.com/rjsf-team/react-jsonschema-form/blob/main/packages/fluentui-rc/screenshot.png?raw=true

@@ -8,7 +8,7 @@ import {
   FormContextType,
   TranslatableString,
   buttonId,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 /** The `ArrayFieldTemplate` component is the template used to render all items in an array.
  *

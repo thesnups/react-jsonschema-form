@@ -1,5 +1,11 @@
 import { Button } from 'primereact/button';
-import { getSubmitButtonOptions, FormContextType, RJSFSchema, StrictRJSFSchema, SubmitButtonProps } from '@rjsf/utils';
+import {
+  getSubmitButtonOptions,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+  SubmitButtonProps,
+} from '@snups/rjsf-utils';
 
 /** The `SubmitButton` renders a button that represents the `Submit` action on a form
  */

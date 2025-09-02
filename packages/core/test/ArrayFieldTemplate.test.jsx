@@ -1,7 +1,7 @@
 import { PureComponent } from 'react';
 import { expect } from 'chai';
 import { Simulate } from 'react-dom/test-utils';
-import { getUiOptions } from '@rjsf/utils';
+import { getUiOptions } from '@snups/rjsf-utils';
 
 import { createFormComponent, createSandbox } from './test_utils';
 

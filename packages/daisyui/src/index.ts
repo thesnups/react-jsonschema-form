@@ -1,4 +1,4 @@
-import { withTheme } from '@rjsf/core';
+import { withTheme } from '@snups/rjsf-core';
 
 import Theme, { ThemeProvider, useTheme } from './theme';
 

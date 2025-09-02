@@ -1,5 +1,5 @@
 import { writeFileSync } from 'fs';
-import { RJSFSchema } from '@rjsf/utils';
+import { RJSFSchema } from '@snups/rjsf-utils';
 
 import compileSchemaValidators, { compileSchemaValidatorsCode } from '../src/compileSchemaValidators';
 

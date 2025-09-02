@@ -7,7 +7,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 const INPUT_STYLE = {
   width: '100%',

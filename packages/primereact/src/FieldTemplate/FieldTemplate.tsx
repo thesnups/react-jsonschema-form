@@ -5,7 +5,7 @@ import {
   getUiOptions,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 import { Label } from '../util';
 

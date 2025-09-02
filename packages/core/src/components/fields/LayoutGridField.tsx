@@ -25,7 +25,7 @@ import {
   UI_GLOBAL_OPTIONS_KEY,
   UiSchema,
   ITEMS_KEY,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import cloneDeep from 'lodash/cloneDeep';
 import each from 'lodash/each';
 import flatten from 'lodash/flatten';

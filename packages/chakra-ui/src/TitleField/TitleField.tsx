@@ -1,4 +1,4 @@
-import { FormContextType, RJSFSchema, StrictRJSFSchema, TitleFieldProps } from '@rjsf/utils';
+import { FormContextType, RJSFSchema, StrictRJSFSchema, TitleFieldProps } from '@snups/rjsf-utils';
 import { Box, Separator, Heading } from '@chakra-ui/react';
 
 export default function TitleField<T = any, S extends StrictRJSFSchema = RJSFSchema, F extends FormContextType = any>({

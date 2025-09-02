@@ -1,6 +1,12 @@
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import { getSubmitButtonOptions, FormContextType, RJSFSchema, StrictRJSFSchema, SubmitButtonProps } from '@rjsf/utils';
+import {
+  getSubmitButtonOptions,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+  SubmitButtonProps,
+} from '@snups/rjsf-utils';
 
 /** The `SubmitButton` renders a button that represent the `Submit` action on a form
  */

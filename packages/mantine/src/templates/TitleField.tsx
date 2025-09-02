@@ -1,4 +1,4 @@
-import { FormContextType, TitleFieldProps, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { FormContextType, TitleFieldProps, RJSFSchema, StrictRJSFSchema } from '@snups/rjsf-utils';
 import { Title } from '@mantine/core';
 
 /** The `TitleField` is the template to use to render the title of a field

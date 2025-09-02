@@ -1,4 +1,4 @@
-import { FieldHelpProps, StrictRJSFSchema, RJSFSchema, FormContextType } from '@rjsf/utils';
+import { FieldHelpProps, StrictRJSFSchema, RJSFSchema, FormContextType } from '@snups/rjsf-utils';
 
 /** The `FieldHelpTemplate` component renders help text for a specific form field
  * with DaisyUI styling. It displays the help text in a subtle gray color and smaller size

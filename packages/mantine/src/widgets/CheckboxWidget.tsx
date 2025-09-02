@@ -8,7 +8,7 @@ import {
   WidgetProps,
   labelValue,
   ariaDescribedByIds,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Checkbox } from '@mantine/core';
 
 import { cleanupOptions } from '../utils';

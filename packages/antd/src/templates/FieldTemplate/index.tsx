@@ -7,7 +7,7 @@ import {
   getTemplate,
   getUiOptions,
   GenericObjectType,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 const VERTICAL_LABEL_COL = { span: 24 };
 const VERTICAL_WRAPPER_COL = { span: 24 };

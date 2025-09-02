@@ -6,7 +6,7 @@ import {
   StrictRJSFSchema,
   WidgetProps,
   GenericObjectType,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 import { DatePicker } from 'antd';
 

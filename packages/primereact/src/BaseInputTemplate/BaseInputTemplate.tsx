@@ -7,7 +7,7 @@ import {
   getInputProps,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { InputText } from 'primereact/inputtext';
 
 /** The `BaseInputTemplate` is the template the fallback if no widget is specified.

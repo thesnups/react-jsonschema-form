@@ -1,5 +1,5 @@
 import { Text, Divider, makeStyles } from '@fluentui/react-components';
-import { FormContextType, TitleFieldProps, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { FormContextType, TitleFieldProps, RJSFSchema, StrictRJSFSchema } from '@snups/rjsf-utils';
 
 const useStyles = makeStyles({
   root: {

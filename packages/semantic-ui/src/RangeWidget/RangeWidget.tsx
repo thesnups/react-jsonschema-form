@@ -1,6 +1,13 @@
 import { ChangeEvent } from 'react';
 import { Input } from 'semantic-ui-react';
-import { ariaDescribedByIds, FormContextType, RJSFSchema, StrictRJSFSchema, WidgetProps, rangeSpec } from '@rjsf/utils';
+import {
+  ariaDescribedByIds,
+  FormContextType,
+  RJSFSchema,
+  StrictRJSFSchema,
+  WidgetProps,
+  rangeSpec,
+} from '@snups/rjsf-utils';
 import { getSemanticProps } from '../util';
 
 /** The `RangeWidget` component uses the `BaseInputTemplate` changing the type to `range` and wrapping the result

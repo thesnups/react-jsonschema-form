@@ -1,5 +1,5 @@
-import { DescriptionFieldProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
-import { RichDescription } from '@rjsf/core';
+import { DescriptionFieldProps, FormContextType, RJSFSchema, StrictRJSFSchema } from '@snups/rjsf-utils';
+import { RichDescription } from '@snups/rjsf-core';
 import { Text } from '@mantine/core';
 
 /** The `DescriptionField` is the template to use to render the description of a field

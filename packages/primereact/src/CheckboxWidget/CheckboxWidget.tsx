@@ -8,7 +8,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Checkbox, CheckboxChangeEvent } from 'primereact/checkbox';
 
 import { Label } from '../util';

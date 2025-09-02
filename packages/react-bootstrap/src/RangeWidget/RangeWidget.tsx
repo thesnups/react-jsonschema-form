@@ -1,4 +1,4 @@
-import { FormContextType, rangeSpec, RJSFSchema, StrictRJSFSchema, WidgetProps } from '@rjsf/utils';
+import { FormContextType, rangeSpec, RJSFSchema, StrictRJSFSchema, WidgetProps } from '@snups/rjsf-utils';
 import { ChangeEvent, FocusEvent } from 'react';
 import FormRange from 'react-bootstrap/FormRange';
 

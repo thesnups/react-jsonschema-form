@@ -5,7 +5,7 @@ import {
   StrictRJSFSchema,
   getTemplate,
   getUiOptions,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Form } from 'semantic-ui-react';
 import { getSemanticProps, MaybeWrap } from '../util';
 

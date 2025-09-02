@@ -1,6 +1,6 @@
-import { createSchemaUtils, englishStringTranslator, WidgetProps, RJSFSchema } from '@rjsf/utils';
-import { getDefaultRegistry } from '@rjsf/core';
-import validator from '@rjsf/validator-ajv8';
+import { createSchemaUtils, englishStringTranslator, WidgetProps, RJSFSchema } from '@snups/rjsf-utils';
+import { getDefaultRegistry } from '@snups/rjsf-core';
+import validator from '@snups/rjsf-validator-ajv8';
 
 import Templates from '../../src/templates/Templates';
 import generateWidgets from '../../src/widgets/Widgets';

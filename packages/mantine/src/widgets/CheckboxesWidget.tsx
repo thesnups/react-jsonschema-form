@@ -9,7 +9,7 @@ import {
   WidgetProps,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Checkbox, Flex, Input } from '@mantine/core';
 
 import { cleanupOptions } from '../utils';

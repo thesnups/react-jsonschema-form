@@ -8,7 +8,7 @@ import {
   FormContextType,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { TextInput, NumberInput } from '@mantine/core';
 
 import { cleanupOptions } from '../utils';

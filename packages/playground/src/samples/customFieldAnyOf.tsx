@@ -1,4 +1,4 @@
-import { FieldProps, FieldTemplateProps, ID_KEY, IdSchema, RJSFSchema, getTemplate } from '@rjsf/utils';
+import { FieldProps, FieldTemplateProps, ID_KEY, IdSchema, RJSFSchema, getTemplate } from '@snups/rjsf-utils';
 import noop from 'lodash/noop';
 
 import { Sample } from './Sample';

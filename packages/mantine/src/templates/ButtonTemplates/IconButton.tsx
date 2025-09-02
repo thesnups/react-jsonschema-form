@@ -1,6 +1,6 @@
 import { MouseEventHandler } from 'react';
 import { ActionIcon, ActionIconProps } from '@mantine/core';
-import { FormContextType, IconButtonProps, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@rjsf/utils';
+import { FormContextType, IconButtonProps, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@snups/rjsf-utils';
 
 import { Copy, ChevronDown, ChevronUp, X } from '../icons';
 

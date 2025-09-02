@@ -1,4 +1,4 @@
-import { FormContextType, RJSFSchema, StrictRJSFSchema, TemplatesType } from '@rjsf/utils';
+import { FormContextType, RJSFSchema, StrictRJSFSchema, TemplatesType } from '@snups/rjsf-utils';
 import SubmitButton from './SubmitButton';
 import AddButton from './AddButton';
 import { CopyButton, MoveDownButton, MoveUpButton, RemoveButton } from './IconButton';

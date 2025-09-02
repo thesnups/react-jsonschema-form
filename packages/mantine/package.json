@@ -1,6 +1,6 @@
 {
-  "name": "@rjsf/mantine",
-  "version": "6.0.0-beta.15",
+  "name": "@snups/rjsf-mantine",
+  "version": "6.0.0-beta.15.2",
   "main": "dist/index.js",
   "module": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -46,7 +46,7 @@
     "build:ts": "tsc -b tsconfig.build.json && tsc-alias -p tsconfig.build.json",
     "build:cjs": "esbuild ./src/index.ts --bundle --outfile=dist/index.js --sourcemap --packages=external --format=cjs",
     "build:esm": "esbuild ./src/index.ts --bundle --outfile=dist/mantine.esm.js --sourcemap --packages=external --format=esm",
-    "build:umd": "rollup dist/mantine.esm.js --format=umd --file=dist/mantine.umd.js --name=@rjsf/mantine",
+    "build:umd": "rollup dist/mantine.esm.js --format=umd --file=dist/mantine.umd.js --name=@snups/rjsf-mantine",
     "build": "npm run build:ts && npm run build:cjs && npm run build:esm && npm run build:umd",
     "cs-check": "prettier -l \"{src,test}/**/*.ts?(x)\"",
     "cs-format": "prettier \"{src,test}/**/*.ts?(x)\" --write",
@@ -64,8 +64,8 @@
     "@mantine/core": ">=8",
     "@mantine/dates": ">=8",
     "@mantine/hooks": ">=8",
-    "@rjsf/core": "^6.0.0-beta.15",
-    "@rjsf/utils": "^6.0.0-beta.15",
+    "@snups/rjsf-core": "^6.0.0-beta.15.2",
+    "@snups/rjsf-utils": "^6.0.0-beta.15.2",
     "react": ">=18"
   },
   "devDependencies": {
@@ -74,10 +74,10 @@
     "@mantine/hooks": "^8.2.4",
     "@restart/hooks": "^0.6.2",
     "@restart/ui": "^1.9.4",
-    "@rjsf/core": "^6.0.0-beta.15",
-    "@rjsf/snapshot-tests": "^6.0.0-beta.15",
-    "@rjsf/utils": "^6.0.0-beta.15",
-    "@rjsf/validator-ajv8": "^6.0.0-beta.15",
+    "@snups/rjsf-core": "^6.0.0-beta.15.2",
+    "@snups/rjsf-snapshot-tests": "^6.0.0-beta.15.2",
+    "@snups/rjsf-utils": "^6.0.0-beta.15.2",
+    "@snups/rjsf-validator-ajv8": "^6.0.0-beta.15.2",
     "eslint": "^8.57.1",
     "uncontrollable": "^9.0.0"
   },
@@ -104,7 +104,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rjsf-team/react-jsonschema-form.git"
+    "url": "git+https://github.com/thesnups/react-jsonschema-form.git"
   },
   "license": "Apache-2.0"
 }

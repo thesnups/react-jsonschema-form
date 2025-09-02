@@ -11,7 +11,7 @@ import {
   WidgetProps,
   descriptionId,
   getTemplate,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 import { Label } from '../util';
 

@@ -5,7 +5,7 @@ import {
   getUiOptions,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Box, Flex, Group } from '@mantine/core';
 
 /** The `ArrayFieldItemTemplate` component is the template used to render an items of an array.

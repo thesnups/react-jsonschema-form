@@ -5,7 +5,7 @@
     <img src="./shadcn.png" alt="Logo" width="180" height="180">
   </a>
 
-<h3 align="center">@rjsf/shadcn</h3>
+<h3 align="center">@snups/rjsf-shadcn (fork of @rjsf/shadcn)</h3>
 
   <p align="center">
   Shadcn theme, fields and widgets for <a href="https://github.com/mozilla-services/react-jsonschema-form/"><code>react-jsonschema-form</code></a>.
@@ -59,31 +59,31 @@ Exports `shadcn` theme, fields and widgets for `react-jsonschema-form`.
 
 ### Prerequisites
 
-- `@rjsf/core >= 6`
-- `@rjsf/utils >= 6`
-- `@rjsf/validator-ajv8 >= 6`
+- `@snups/rjsf-core >= 6`
+- `@snups/rjsf-utils >= 6`
+- `@snups/rjsf-validator-ajv8 >= 6`
 
 ```bash
-yarn add @rjsf/core @rjsf/utils @rjsf/validator-ajv8
+yarn add @snups/rjsf-core @snups/rjsf-utils @snups/rjsf-validator-ajv8
 ```
 
 ### Installation
 
 ```bash
-yarn add @rjsf/shadcn
+yarn add @snups/rjsf-shadcn
 ```
 
 ## Usage
 
 ```js
-import Form from '@rjsf/shadcn';
+import Form from '@snups/rjsf-shadcn';
 ```
 
 or
 
 ```js
-import {withTheme} from '@rjsf/core';
-import {Theme as shadcnTheme} from '@rjsf/shadcn';
+import {withTheme} from '@snups/rjsf-core';
+import {Theme as shadcnTheme} from '@snups/rjsf-shadcn';
 
 const Form = withTheme(shadcnTheme);
 ```
@@ -103,13 +103,13 @@ Add the following line to your tailwind.config.ts
 ```typescript
   content: [
     "./src/**/*.{html,js}",
-    "node_modules/@rjsf/shadcn/src/**/*.{js,ts,jsx,tsx,mdx}" // Add this line
+    "node_modules/@snups/rjsf-shadcn/src/**/*.{js,ts,jsx,tsx,mdx}" // Add this line
   ],
 ```
 #### Tailwind v4
 Add the following line to your equivalent global.css
 ```css
-@source "../node_modules/@rjsf/shadcn";
+@source "../node_modules/@snups/rjsf-shadcn";
 ```
 
 ### Not using Tailwind
@@ -119,9 +119,9 @@ Add the following line to your equivalent global.css
 All shadcn's default color theme are included in the npm packages. Simply do
 
 ```
-import '@rjsf/shadcn/dist/[color].css';
+import '@snups/rjsf-shadcn/dist/[color].css';
 e.g:
-import '@rjsf/shadcn/dist/zinc.css';
+import '@snups/rjsf-shadcn/dist/zinc.css';
 ```
 
 Supported colors are:
@@ -233,12 +233,12 @@ repository: [https://github.com/rjsf-team/react-jsonschema-form](https://github.
 
 [license-url]: https://choosealicense.com/licenses/apache-2.0/
 
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/shadcn/latest.svg?style=flat-square
+[npm-shield]: https://img.shields.io/npm/v/@snups/rjsf-shadcn/latest.svg?style=flat-square
 
-[npm-url]: https://www.npmjs.com/package/@rjsf/shadcn
+[npm-url]: https://www.npmjs.com/package/@snups/rjsf-shadcn
 
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/shadcn.svg?style=flat-square
+[npm-dl-shield]: https://img.shields.io/npm/dm/@snups/rjsf-shadcn.svg?style=flat-square
 
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/shadcn
+[npm-dl-url]: https://www.npmjs.com/package/@snups/rjsf-shadcn
 
 [product-screenshot]: https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/59a8206e148474bea854bbb004f624143fbcbac8/packages/shadcn/screenshot.png

@@ -9,7 +9,7 @@ import {
   StrictRJSFSchema,
   UI_OPTIONS_KEY,
   buttonId,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 import { cleanClassNames, getSemanticProps } from '../util';
 

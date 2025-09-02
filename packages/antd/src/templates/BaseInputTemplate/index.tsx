@@ -9,7 +9,7 @@ import {
   GenericObjectType,
   RJSFSchema,
   StrictRJSFSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 const INPUT_STYLE = {
   width: '100%',

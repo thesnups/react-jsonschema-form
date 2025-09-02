@@ -7,7 +7,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   TemplatesType,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 /** The `LayoutHeaderField` component renders a `TitleFieldTemplate` with an `id` derived from the `idSchema`
  * and whether it is `required` from the props. The `title` is derived from the props as follows:

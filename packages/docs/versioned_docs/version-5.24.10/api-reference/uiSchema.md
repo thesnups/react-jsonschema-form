@@ -44,7 +44,7 @@ In other words, the following `uiSchema`s are equivalent:
 }
 ```
 
-For a full list of what is supported in the `uiSchema` see the `UiSchema` type in [@rjsf/utils/types.ts](https://github.com/rjsf-team/react-jsonschema-form/blob/main/packages/utils/src/types.ts).
+For a full list of what is supported in the `uiSchema` see the `UiSchema` type in [@snups/rjsf-utils/types.ts](https://github.com/rjsf-team/react-jsonschema-form/blob/main/packages/utils/src/types.ts).
 Be sure to pay attention to the hierarchical intersection to these other types: `UIOptionsBaseType` and `TemplatesType`.
 
 ## Exceptions to the equivalence
@@ -56,7 +56,7 @@ There are 4 properties that exist in a `UiSchema` that will not be found in an i
 The set of globally relevant `UiSchema` options that are read from the root-level `UiSchema` and stored in the `registry` for use everywhere.
 
 ```ts
-import { UiSchema } from '@rjsf/utils';
+import { UiSchema } from '@snups/rjsf-utils';
 
 const uiSchema: UiSchema = {
   'ui:globalOptions': { copyable: true },
@@ -69,7 +69,7 @@ By default, this library will generate ids unique to the form for all rendered w
 If you plan on using multiple instances of the `Form` component in a same page, it's wise to declare a root prefix for these, using the `ui:rootFieldId` uiSchema directive:
 
 ```ts
-import { UiSchema } from '@rjsf/utils';
+import { UiSchema } from '@snups/rjsf-utils';
 
 const uiSchema: UiSchema = {
   'ui:rootFieldId': 'myform',
@@ -114,7 +114,7 @@ See [Custom Widgets and Fields](../advanced-customization/custom-widgets-fields.
 The uiSchema object accepts a `ui:classNames` property for each field of the schema:
 
 ```tsx
-import { UiSchema } from '@rjsf/utils';
+import { UiSchema } from '@snups/rjsf-utils';
 
 const uiSchema = {
   title: {
@@ -139,7 +139,7 @@ Will result in:
 The uiSchema object accepts a `ui:style` property for each field of the schema:
 
 ```tsx
-import { UiSchema } from '@rjsf/utils';
+import { UiSchema } from '@snups/rjsf-utils';
 
 const uiSchema = {
   title: {
@@ -164,7 +164,7 @@ Will result in:
 If you want to mark a text input, select or textarea input to use the HTML autocomplete feature, set the `ui:autocomplete` uiSchema directive to a valid [HTML autocomplete value](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete#values).
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
 
 const schema: RJSFSchema = { type: 'string' };
 const uiSchema: UiSchema = {
@@ -178,7 +178,7 @@ const uiSchema: UiSchema = {
 If you want to automatically focus on a text input or textarea input, set the `ui:autofocus` uiSchema directive to `true`.
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
 
 const schema: RJSFSchema = { type: 'string' };
 const uiSchema: UiSchema = {
@@ -192,7 +192,7 @@ const uiSchema: UiSchema = {
 Sometimes it's convenient to change the description of a field. This is the purpose of the `ui:description` uiSchema directive:
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
 
 const schema: RJSFSchema = { type: 'string' };
 const uiSchema: UiSchema = {
@@ -216,7 +216,7 @@ The `ui:emptyValue` uiSchema directive provides the default value to use when an
 To disable an option, use the `enumDisabled` property in uiSchema.
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
 
 const schema: RJSFSchema = {
   type: 'string',
@@ -233,7 +233,7 @@ const uiSchema: UiSchema = {
 Allows a user to provide a list of labels for enum values in the schema.
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
 
 const schema: RJSFSchema = {
   type: 'number',
@@ -249,7 +249,7 @@ const uiSchema: UiSchema = {
 The `FileWidget` can be configured to show a preview of an image or a download link for non-images using this flag.
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
 
 const schema: RJSFSchema = {
   type: 'string',
@@ -267,7 +267,7 @@ const uiSchema: UiSchema = {
 Sometimes it's convenient to add text next to a field to guide the end user filling it. This is the purpose of the `ui:help` uiSchema directive:
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
 
 const schema: RJSFSchema = { type: 'string' };
 const uiSchema: UiSchema = {
@@ -293,7 +293,7 @@ This is useful when you have a custom field or widget that utilizes either the `
 To change the input type (for example, `tel` or `email`) you can specify the `inputType` in the `ui:options` uiSchema directive.
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
 
 const schema: RJSFSchema = { type: 'string' };
 const uiSchema: UiSchema = {
@@ -309,9 +309,9 @@ Field labels are rendered by default.
 Labels may be omitted on a per-field by setting the `label` option to `false` in the `ui:options` uiSchema directive.
 
 ```tsx
-import { Form } from '@rjsf/core';
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-core';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = { type: 'string' };
 const uiSchema: UiSchema = {
@@ -326,9 +326,9 @@ render(<Form schema={schema} uiSchema={uiSchema} validator={validator} />, docum
 They can also be omitted globally by setting the `label` option to `false` in the `ui:globalOptions` uiSchema directive.
 
 ```tsx
-import { Form } from '@rjsf/core';
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-core';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = { type: 'string' };
 const uiSchema: UiSchema = {
@@ -349,9 +349,9 @@ This property allows you to reorder the properties that are shown for a particul
 You can add placeholder text to an input by using the `ui:placeholder` uiSchema directive:
 
 ```tsx
-import { Form } from '@rjsf/core';
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-core';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = { type: 'string', format: 'uri' };
 const uiSchema: UiSchema = {
@@ -364,9 +364,9 @@ render(<Form schema={schema} uiSchema={uiSchema} validator={validator} />, docum
 Fields using `enum` can also use `ui:placeholder`. The value will be used as the text for the empty option in the select widget.
 
 ```tsx
-import { Form } from '@rjsf/core';
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-core';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = { type: 'string', enum: ['First', 'Second'] };
 const uiSchema: UiSchema = {
@@ -387,9 +387,9 @@ The `ui:readonly` uiSchema directive will mark all child widgets from a given fi
 You can set the initial height of a textarea widget by specifying `rows` option.
 
 ```tsx
-import { Form } from '@rjsf/core';
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-core';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema: RJSFSchema = { type: 'string' };
 const uiSchema: UiSchema = {
@@ -407,7 +407,7 @@ render(<Form schema={schema} uiSchema={uiSchema} validator={validator} />, docum
 Sometimes it's convenient to change a field's title. This is the purpose of the `ui:title` uiSchema directive:
 
 ```tsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
 
 const schema: RJSFSchema = { type: 'string' };
 const uiSchema: UiSchema = {
@@ -443,7 +443,7 @@ You can use this option to disable the submit button.
 You can use this option to specify a class name for the submit button.
 
 ```tsx
-import { UiSchema } from '@rjsf/utils';
+import { UiSchema } from '@snups/rjsf-utils';
 
 const uiSchema: UiSchema = {
   'ui:submitButtonOptions': {
@@ -466,7 +466,7 @@ You can use `ui:duplicateKeySuffixSeparator` to override the default separator, 
 You can also set this in the `ui:globalOptions` to have the same separator used everywhere.
 
 ```ts
-import { UiSchema } from '@rjsf/utils';
+import { UiSchema } from '@snups/rjsf-utils';
 
 const uiSchema = {
   'ui:globalOptions': {
@@ -484,7 +484,7 @@ Because the `anyOf` in the `schema` is an array, so must be the one in the `uiSc
 If you want to override the titles of the first two elements within the `anyOf` list you would do the following:
 
 ```ts
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
 
 const schema: RJSFSchema = {
   type: 'object',
@@ -525,7 +525,7 @@ Because the `oneOf` in the `schema` is an array, so must be the one in the `uiSc
 If you want to override the titles of the first two elements within the `oneOf` list you would do the following:
 
 ```ts
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
 
 const schema: RJSFSchema = {
   type: 'object',

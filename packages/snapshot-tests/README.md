@@ -10,7 +10,7 @@
     <img src="https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/59a8206e148474bea854bbb004f624143fbcbac8/packages/core/logo.png" alt="Logo" width="180" height="120">
   </a>
 
-  <h3 align="center">@rjsf/snapshot-tests</h3>
+  <h3 align="center">@snups/rjsf-snapshot-tests (fork of @rjsf/snapshot-tests)</h3>
 
   <p align="center">
   A set of snapshot tests to be used for testing RJSF themes.
@@ -52,15 +52,15 @@ Package with snapshot test suits for testing themes for `react-jsonschema-form`.
 ### Installation
 
 ```sh
-npm install @rjsf/snapshot-tests
+npm install @snups/rjsf-snapshot-tests
 ```
 
 ## Usage
 
 ```tsx
-import { arrayTests } from '@rjsf/snapshot-tests'; // OR
-// import { formTests } from '@rjsf/snapshot-tests';
-// import { objectTests } from '@rjsf/snapshot-tests';
+import { arrayTests } from '@snups/rjsf-snapshot-tests'; // OR
+// import { formTests } from '@snups/rjsf-snapshot-tests';
+// import { objectTests } from '@snups/rjsf-snapshot-tests';
 
 import Form from '../src';
 
@@ -97,8 +97,8 @@ GitHub repository: [https://github.com/rjsf-team/react-jsonschema-form](https://
 [contributors-url]: https://github.com/rjsf-team/react-jsonschema-form/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/apache-2.0/
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/snapshot-tests/latest.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@rjsf/snapshot-tests
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/snapshot-tests.svg?style=flat-square
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/snapshot-tests
+[npm-shield]: https://img.shields.io/npm/v/@snups/rjsf-snapshot-tests/latest.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@snups/rjsf-snapshot-tests
+[npm-dl-shield]: https://img.shields.io/npm/dm/@snups/rjsf-snapshot-tests.svg?style=flat-square
+[npm-dl-url]: https://www.npmjs.com/package/@snups/rjsf-snapshot-tests
 [product-screenshot]: https://raw.githubusercontent.com/rjsf-team/react-jsonschema-form/59a8206e148474bea854bbb004f624143fbcbac8/packages/snapshot-tests/screenshot.png

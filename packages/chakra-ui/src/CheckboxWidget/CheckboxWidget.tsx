@@ -10,7 +10,7 @@ import {
   StrictRJSFSchema,
   RJSFSchema,
   FormContextType,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 import { Field } from '../components/ui/field';
 import { Checkbox } from '../components/ui/checkbox';

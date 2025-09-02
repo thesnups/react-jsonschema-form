@@ -6,7 +6,7 @@ import {
   StrictRJSFSchema,
   getTemplate,
   getUiOptions,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 /** The `FieldTemplate` component is the template used by `SchemaField` to render any field. It renders the field
  * content, (label, description, children, errors and help) inside a `WrapIfAdditional` component.

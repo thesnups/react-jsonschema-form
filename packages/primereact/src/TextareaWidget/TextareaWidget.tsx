@@ -1,6 +1,6 @@
 import { ChangeEvent } from 'react';
 import { InputTextarea } from 'primereact/inputtextarea';
-import { FormContextType, RJSFSchema, StrictRJSFSchema, WidgetProps } from '@rjsf/utils';
+import { FormContextType, RJSFSchema, StrictRJSFSchema, WidgetProps } from '@snups/rjsf-utils';
 
 /** The `TextareaWidget` is a widget for rendering input fields as textarea using PrimeReact.
  *

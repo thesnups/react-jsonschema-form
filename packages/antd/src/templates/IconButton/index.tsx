@@ -11,7 +11,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   TranslatableString,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { MouseEventHandler } from 'react';
 
 // The `type` and `color` for IconButtonProps collides with props of `ButtonProps` so omit it to avoid Typescript issue

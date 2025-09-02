@@ -1,4 +1,4 @@
-import { ArrayFieldTitleProps, StrictRJSFSchema, RJSFSchema, FormContextType } from '@rjsf/utils';
+import { ArrayFieldTitleProps, StrictRJSFSchema, RJSFSchema, FormContextType } from '@snups/rjsf-utils';
 
 /** The `ArrayFieldTitleTemplate` component renders the title for an array field
  * using DaisyUI styling with large bold text.

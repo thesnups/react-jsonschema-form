@@ -1,4 +1,4 @@
-import { SLIDER_CUSTOMIZE, TEXTAREA_CUSTOMIZE } from '@rjsf/snapshot-tests';
+import { SLIDER_CUSTOMIZE, TEXTAREA_CUSTOMIZE } from '@snups/rjsf-snapshot-tests';
 
 export const COMPUTED_STYLE_MOCK = {
   width: 100,

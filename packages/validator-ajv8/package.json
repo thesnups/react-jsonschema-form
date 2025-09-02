@@ -1,11 +1,10 @@
 {
-  "name": "@rjsf/validator-ajv8",
-  "version": "6.0.0-beta.15",
+  "name": "@snups/rjsf-validator-ajv8",
+  "version": "6.0.0-beta.15.2",
   "main": "dist/index.js",
   "module": "lib/index.js",
   "typings": "lib/index.d.ts",
-  "type": "module",
-  "description": "The ajv-8 based validator for @rjsf/core",
+  "description": "The ajv-8 based validator for @snups/rjsf-core",
   "exports": {
     ".": {
       "types": "./lib/index.d.ts",
@@ -62,7 +61,7 @@
     "build:ts": "npm run compileReplacer && rimraf ./lib && tsc -b tsconfig.build.json && tsc-alias -p tsconfig.build.json",
     "build:cjs": "esbuild ./src/index.ts --bundle --outfile=dist/index.js --sourcemap --packages=external --format=cjs && esbuild ./src/compileSchemaValidators.ts --bundle --outfile=dist/compileSchemaValidators.js --sourcemap --packages=external --format=cjs",
     "build:esm": "esbuild ./src/index.ts --bundle --outfile=dist/validator-ajv8.esm.js --sourcemap --packages=external --format=esm  && esbuild ./src/compileSchemaValidators.ts --bundle --outfile=dist/compileSchemaValidators.esm.js --sourcemap --packages=external --format=esm",
-    "build:umd": "rollup dist/validator-ajv8.esm.js --format=umd --file=dist/validator-ajv8.umd.js --name=@rjsf/validator-ajv8",
+    "build:umd": "rollup dist/validator-ajv8.esm.js --format=umd --file=dist/validator-ajv8.umd.js --name=@snups/rjsf-validator-ajv8",
     "build": "npm run build:ts && npm run build:cjs && npm run build:esm && npm run build:umd",
     "cs-check": "prettier -l \"{src,test}/**/*.ts?(x)\"",
     "cs-format": "prettier \"{src,test}/**/*.ts?(x)\" --write",
@@ -83,10 +82,10 @@
     "lodash-es": "^4.17.21"
   },
   "peerDependencies": {
-    "@rjsf/utils": "^6.0.0-beta.15"
+    "@snups/rjsf-utils": "^6.0.0-beta.15.2"
   },
   "devDependencies": {
-    "@rjsf/utils": "^6.0.0-beta.15",
+    "@snups/rjsf-utils": "^6.0.0-beta.15.2",
     "@types/json-schema": "^7.0.15",
     "ajv-i18n": "^4.2.0",
     "eslint": "^8.57.1"
@@ -109,7 +108,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rjsf-team/react-jsonschema-form.git"
+    "url": "git+https://github.com/thesnups/react-jsonschema-form.git"
   },
   "license": "Apache-2.0"
 }

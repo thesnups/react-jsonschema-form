@@ -50,7 +50,7 @@ For arrays this is not the case. Defining an array, when a parent also defines a
 The `ArrayField` component provides a UI to add, copy, remove and reorder array items, and these buttons use [Bootstrap glyphicons](http://getbootstrap.com/components/#glyphicons).
 If you don't use glyphicons but still want to provide your own icons or texts for these buttons, you can easily do so using CSS:
 
-> NOTE this only applies to the `@rjsf/core` theme
+> NOTE this only applies to the `@snups/rjsf-core` theme
 
 ```css
 i.glyphicon {
@@ -80,9 +80,9 @@ This method will dispatch the `submit` event of the form, and the function, that
 
 ```tsx
 import { createRef } from 'react';
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import { Form } from '@rjsf/core';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import { Form } from '@snups/rjsf-core';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const onSubmit = ({ formData }) => console.log('Data submitted: ', formData);
 let yourForm;
@@ -95,7 +95,7 @@ const formRef = createRef<Form>();
 
 render(
   <Form schema={schema} validator={validator} onSubmit={onSubmit} ref={formRef} />,
-  document.getElementById('app')
+  document.getElementById('app'),
 );
 
 formRef.current.submit();

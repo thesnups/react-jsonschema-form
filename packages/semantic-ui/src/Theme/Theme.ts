@@ -1,5 +1,5 @@
-import { FormContextType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
-import { ThemeProps } from '@rjsf/core';
+import { FormContextType, RJSFSchema, StrictRJSFSchema } from '@snups/rjsf-utils';
+import { ThemeProps } from '@snups/rjsf-core';
 import { Form as SuiForm } from 'semantic-ui-react';
 
 import { generateTemplates } from '../Templates';

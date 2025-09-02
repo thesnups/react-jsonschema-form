@@ -3,10 +3,10 @@ import { CssBaseline } from '@mui/material';
 import { CacheProvider } from '@emotion/react';
 import createCache, { EmotionCache } from '@emotion/cache';
 import Frame, { FrameComponentProps, FrameContextConsumer } from 'react-frame-component';
-import { __createChakraFrameProvider } from '@rjsf/chakra-ui';
+import { __createChakraFrameProvider } from '@snups/rjsf-chakra-ui';
 import { StyleProvider as AntdStyleProvider } from '@ant-design/cssinjs';
-import { __createFluentUIRCFrameProvider } from '@rjsf/fluentui-rc';
-import { __createDaisyUIFrameProvider } from '@rjsf/daisyui';
+import { __createFluentUIRCFrameProvider } from '@snups/rjsf-fluentui-rc';
+import { __createDaisyUIFrameProvider } from '@snups/rjsf-daisyui';
 import { MantineProvider } from '@mantine/core';
 import { PrimeReactProvider } from 'primereact/api';
 

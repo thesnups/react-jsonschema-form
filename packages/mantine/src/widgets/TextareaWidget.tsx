@@ -6,7 +6,7 @@ import {
   WidgetProps,
   labelValue,
   ariaDescribedByIds,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { Textarea } from '@mantine/core';
 
 import { cleanupOptions } from '../utils';

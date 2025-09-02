@@ -12,7 +12,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { getSemanticProps } from '../util';
 
 /** The `CheckboxesWidget` is a widget for rendering checkbox groups.

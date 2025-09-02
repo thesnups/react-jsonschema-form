@@ -763,9 +763,9 @@ you are using a theme like `mui` and you need to style a `Grid` using CSS-in-JS 
 
 ```tsx
 import { styled, Grid } from '@mui/material';
-import Form from '@rjsf/core';
-import { LOOKUP_MAP_NAME, FormContextType } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import Form from '@snups/rjsf-core';
+import { LOOKUP_MAP_NAME, FormContextType } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 // Import the Person Info schema from above
 import schema from './personSchema.json';
@@ -924,9 +924,9 @@ really easy using a variant of the "syntax" for a `children` node in the `uiSche
 ```
 
 ```tsx
-import Form from '@rjsf/core';
-import { LOOKUP_MAP_NAME, FormContextType } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import Form from '@snups/rjsf-core';
+import { LOOKUP_MAP_NAME, FormContextType } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 // Import the My Favorite Shape schema from above section
 import schema from './shapeSchema.json';
@@ -974,9 +974,9 @@ The `render` "syntax" also works if you have an object-based `uiSchema` and pass
 than use a named lookup. For example:
 
 ```tsx
-import Form from '@rjsf/core';
-import { LOOKUP_MAP_NAME, FormContextType, UiSchema } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import Form from '@snups/rjsf-core';
+import { LOOKUP_MAP_NAME, FormContextType, UiSchema } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 // Import the My Favorite Shape schema from above section
 import schema from './shapeSchema.json';
@@ -1109,9 +1109,9 @@ if you wanted to programmatically control which size to use outside of the `Form
 follows:
 
 ```tsx
-import Form from '@rjsf/core';
-import { LOOKUP_MAP_NAME, FormContextType } from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+import Form from '@snups/rjsf-core';
+import { LOOKUP_MAP_NAME, FormContextType } from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 
 // Import the My Favorite Shape schema from above section
 import schema from './shapeSchema.json';

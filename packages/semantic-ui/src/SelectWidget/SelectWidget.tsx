@@ -10,7 +10,7 @@ import {
   StrictRJSFSchema,
   WidgetProps,
   UIOptionsType,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import map from 'lodash/map';
 import { Form, DropdownProps, DropdownItemProps } from 'semantic-ui-react';
 import { getSemanticProps } from '../util';

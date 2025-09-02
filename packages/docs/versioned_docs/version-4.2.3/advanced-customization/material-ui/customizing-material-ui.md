@@ -3,13 +3,13 @@
 Unlike most other themes, the `material-ui` theme supports the two distinct version of Material UI (versions 4 and 5) side-by-side.
 Material UI version 4 is provided by the scoped packages under `@material-ui` and version 5 is provided by the scoped packages under `@mui`. 
 
-The components used by `@rjsf/material-ui` for Material UI version 4 and version 5 have identical names and props.
+The components used by `@snups/rjsf-material-ui` for Material UI version 4 and version 5 have identical names and props.
 As a result, all of the `fields` and `widgets` provided by the theme are identical as well.
 The trick to making the two versions function side-by-side, was done by creating a React context, `MuiComponentContext`, that provides the appropriate set of components used by theme, for the particular scoped package.
 
 In addition to this context, a custom hook, `useMuiComponent()`, is provided to allow quick access to that component set.
 
-## Example of a custom widget for `@rjsf/material-ui`
+## Example of a custom widget for `@snups/rjsf-material-ui`
 
 Here is an update to the `MyCustomWidget` for the `material-ui` theme
 
@@ -18,7 +18,7 @@ const schema = {
   type: "string"
 };
 
-import { useMuiComponent } from '@rjsf/material-ui/v4';
+import { useMuiComponent } from '@snups/rjsf-material-ui/v4';
 
 function MyCustomWidget(props) {
   const { options, ...otherProps } = props;
@@ -47,7 +47,7 @@ render((
 ), document.getElementById("app"));
 ```
 
-## Example of a custom field for `@rjsf/material-ui`
+## Example of a custom field for `@snups/rjsf-material-ui`
 
 Here is an update to the `GeoPosition` for the `material-ui` theme
 
@@ -61,7 +61,7 @@ const schema = {
   }
 };
 
-import { useMuiComponent } from '@rjsf/material-ui/v4';
+import { useMuiComponent } from '@snups/rjsf-material-ui/v4';
 
 // Define a custom component for handling the root position object
 function GeoPosition(props) {

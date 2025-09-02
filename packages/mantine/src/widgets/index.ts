@@ -1,4 +1,4 @@
-import { FormContextType, RegistryWidgetsType, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { FormContextType, RegistryWidgetsType, RJSFSchema, StrictRJSFSchema } from '@snups/rjsf-utils';
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 

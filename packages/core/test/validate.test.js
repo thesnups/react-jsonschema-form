@@ -3,7 +3,7 @@ import sinon from 'sinon';
 import { fireEvent, act } from '@testing-library/react';
 
 import { createFormComponent, submitForm } from './test_utils';
-import { customizeValidator as customizeV8Validator } from '@rjsf/validator-ajv8';
+import { customizeValidator as customizeV8Validator } from '@snups/rjsf-validator-ajv8';
 
 describe('Validation', () => {
   describe('Form integration, v8 validator', () => {

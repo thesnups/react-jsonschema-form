@@ -7,7 +7,7 @@ import {
   StrictRJSFSchema,
   WidgetProps,
   GenericObjectType,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 /** The `PasswordWidget` component uses the `BaseInputTemplate` changing the type to `password`.
  *

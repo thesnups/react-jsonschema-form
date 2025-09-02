@@ -7,7 +7,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 function getValue(event: SyntheticEvent<HTMLSelectElement>, multiple: boolean) {
   if (multiple) {

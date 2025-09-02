@@ -1,4 +1,4 @@
-import { gridTests } from '@rjsf/snapshot-tests';
+import { gridTests } from '@snups/rjsf-snapshot-tests';
 
 import Form from '../src';
 

@@ -7,7 +7,7 @@ import {
   RJSFSchema,
   StrictRJSFSchema,
   WidgetProps,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 import { FileInput, Pill } from '@mantine/core';
 
 import { cleanupOptions } from '../utils';

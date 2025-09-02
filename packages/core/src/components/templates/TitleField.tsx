@@ -1,4 +1,4 @@
-import { FormContextType, TitleFieldProps, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { FormContextType, TitleFieldProps, RJSFSchema, StrictRJSFSchema } from '@snups/rjsf-utils';
 
 const REQUIRED_FIELD_SYMBOL = '*';
 

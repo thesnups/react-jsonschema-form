@@ -19,8 +19,8 @@ import {
   UI_OPTIONS_KEY,
   UI_GLOBAL_OPTIONS_KEY,
   UiSchema,
-} from '@rjsf/utils';
-import validator from '@rjsf/validator-ajv8';
+} from '@snups/rjsf-utils';
+import validator from '@snups/rjsf-validator-ajv8';
 import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { get, has, omit, pick } from 'lodash';

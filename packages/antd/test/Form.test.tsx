@@ -1,7 +1,7 @@
 import renderer from 'react-test-renderer';
-import validator from '@rjsf/validator-ajv8';
-import { RJSFSchema } from '@rjsf/utils';
-import { formTests } from '@rjsf/snapshot-tests';
+import validator from '@snups/rjsf-validator-ajv8';
+import { RJSFSchema } from '@snups/rjsf-utils';
+import { formTests } from '@snups/rjsf-snapshot-tests';
 
 import '../__mocks__/matchMedia.mock';
 import Form from '../src';

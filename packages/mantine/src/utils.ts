@@ -1,4 +1,4 @@
-import { UIOptionsType } from '@rjsf/utils';
+import { UIOptionsType } from '@snups/rjsf-utils';
 
 const uiOptionsKeys: Array<keyof UIOptionsType> = [
   'emptyValue',

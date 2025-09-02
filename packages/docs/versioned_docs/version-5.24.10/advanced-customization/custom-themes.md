@@ -7,8 +7,8 @@ This theme-defining object is passed as the only parameter to the HOC (`withThem
 
 ```tsx
 import React, { Component } from 'react';
-import validator from '@rjsf/validator-ajv8';
-import { withTheme, ThemeProps } from '@rjsf/core';
+import validator from '@snups/rjsf-validator-ajv8';
+import { withTheme, ThemeProps } from '@snups/rjsf-core';
 
 const theme: ThemeProps = { widgets: { test: () => <div>test</div> } };
 
@@ -33,8 +33,8 @@ you can essentially redefine the default Form by simply doing `const Form = with
 Example theme with custom widget:
 
 ```tsx
-import { WidgetProps, RegistryWidgetsType } from '@rjsf/utils';
-import { ThemeProps } from '@rjsf/core';
+import { WidgetProps, RegistryWidgetsType } from '@snups/rjsf-utils';
+import { ThemeProps } from '@snups/rjsf-core';
 
 const MyCustomWidget = (props: WidgetProps) => {
   return (
@@ -63,8 +63,8 @@ The above can be similarly done for **fields** and **templates**.
 Each template should be passed into the theme object via the **templates** object just as you would into the rjsf Form component. Here is an example of how to use a custom [ArrayFieldTemplate](./custom-templates.md#arrayfieldtemplate) and [ErrorListTemplate](./custom-templates.md#errorlisttemplate) in the theme object:
 
 ```tsx
-import { ArrayFieldTemplateProps, ErrorListProps } from '@rjsf/utils';
-import { ThemeProps } from '@rjsf/core';
+import { ArrayFieldTemplateProps, ErrorListProps } from '@snups/rjsf-utils';
+import { ThemeProps } from '@snups/rjsf-core';
 
 function MyArrayFieldTemplate(props: ArrayFieldTemplateProps) {
   return (
@@ -102,7 +102,7 @@ export default ThemeObject;
 Just as the theme can override **widgets**, **fields**, any of the **templates**, and set default values to properties like **showErrorList**, you can do the same with the instance of the withTheme() Form component.
 
 ```tsx
-import { ThemeProps } from '@rjsf/core';
+import { ThemeProps } from '@snups/rjsf-core';
 
 const ThemeObject: ThemeProps = {
   templates: {

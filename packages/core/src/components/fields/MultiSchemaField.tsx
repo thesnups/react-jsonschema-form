@@ -18,7 +18,7 @@ import {
   StrictRJSFSchema,
   TranslatableString,
   UiSchema,
-} from '@rjsf/utils';
+} from '@snups/rjsf-utils';
 
 /** Type used for the state of the `AnyOfField` component */
 type AnyOfFieldState<S extends StrictRJSFSchema = RJSFSchema> = {

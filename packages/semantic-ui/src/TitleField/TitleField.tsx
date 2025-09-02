@@ -1,4 +1,4 @@
-import { FormContextType, TitleFieldProps, RJSFSchema, StrictRJSFSchema } from '@rjsf/utils';
+import { FormContextType, TitleFieldProps, RJSFSchema, StrictRJSFSchema } from '@snups/rjsf-utils';
 import { Header } from 'semantic-ui-react';
 
 import { getSemanticProps } from '../util';

@@ -1,6 +1,6 @@
 import { ComponentType, FormEvent, useCallback, useEffect, useRef, useState } from 'react';
-import { FormProps, IChangeEvent, withTheme } from '@rjsf/core';
-import { ErrorSchema, RJSFSchema, RJSFValidationError, UiSchema, ValidatorType } from '@rjsf/utils';
+import { FormProps, IChangeEvent, withTheme } from '@snups/rjsf-core';
+import { ErrorSchema, RJSFSchema, RJSFValidationError, UiSchema, ValidatorType } from '@snups/rjsf-utils';
 import { isFunction } from 'lodash';
 
 import { samples } from '../samples';

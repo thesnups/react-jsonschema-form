@@ -1,4 +1,4 @@
-# @rjsf/daisyui
+# @snups/rjsf-daisyui (fork of @rjsf/daisyui)
 
 [![Build Status][build-shield]][build-url]
 [![npm][npm-shield]][npm-url]
@@ -38,21 +38,21 @@ This package integrates [DaisyUI](https://daisyui.com/), [Tailwind CSS](https://
 - `daisyui >= 5`
 - `@fluentui/react-icons >= 2`
 - `@fluentui/react-migration-v0-v9 >= 9`
-- `@rjsf/core >= 6`
-- `@rjsf/utils >= 6`
-- `@rjsf/validator-ajv8 >= 6`
+- `@snups/rjsf-core >= 6`
+- `@snups/rjsf-utils >= 6`
+- `@snups/rjsf-validator-ajv8 >= 6`
 
 ### Installation
 
 ```bash
-npm install @rjsf/daisyui @rjsf/core @rjsf/utils @rjsf/validator-ajv8 tailwindcss daisyui
+npm install @snups/rjsf-daisyui @snups/rjsf-core @snups/rjsf-utils @snups/rjsf-validator-ajv8 tailwindcss daisyui
 ```
 
 ## Usage
 
 ```jsx
-import { Form } from '@rjsf/daisyui';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-daisyui';
+import validator from '@snups/rjsf-validator-ajv8';
 
 function App() {
   return (
@@ -79,7 +79,7 @@ Make sure your `src/index.css` includes the DaisyUI plugin:
 
 ```css
 @import 'tailwindcss';
-@source "../node_modules/@rjsf/daisyui";
+@source "../node_modules/@snups/rjsf-daisyui";
 @plugin "daisyui" {
   themes: all;
 }
@@ -92,9 +92,9 @@ It's necessary to explicitely include the library as a source, as tailwindcss by
 The DaisyUI theme supports the standard RJSF layout grid system. You can use grid layouts by incorporating the `LayoutGridField` in your UI schema:
 
 ```jsx
-import { RJSFSchema, UiSchema } from '@rjsf/utils';
-import Form from '@rjsf/daisyui';
-import validator from '@rjsf/validator-ajv8';
+import { RJSFSchema, UiSchema } from '@snups/rjsf-utils';
+import Form from '@snups/rjsf-daisyui';
+import validator from '@snups/rjsf-validator-ajv8';
 
 const schema = {
   type: 'object',
@@ -176,8 +176,8 @@ You can also dynamically change themes in your application:
 
 ```jsx
 import { useState } from 'react';
-import { Form } from '@rjsf/daisyui';
-import validator from '@rjsf/validator-ajv8';
+import { Form } from '@snups/rjsf-daisyui';
+import validator from '@snups/rjsf-validator-ajv8';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -226,10 +226,10 @@ Apache-2.0
 
 [build-shield]: https://github.com/rjsf-team/react-jsonschema-form/workflows/CI/badge.svg
 [build-url]: https://github.com/rjsf-team/react-jsonschema-form/actions
-[npm-shield]: https://img.shields.io/npm/v/@rjsf/daisyui/latest.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/@rjsf/daisyui
-[npm-dl-shield]: https://img.shields.io/npm/dm/@rjsf/daisyui.svg?style=flat-square
-[npm-dl-url]: https://www.npmjs.com/package/@rjsf/daisyui
+[npm-shield]: https://img.shields.io/npm/v/@snups/rjsf-daisyui/latest.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@snups/rjsf-daisyui
+[npm-dl-shield]: https://img.shields.io/npm/dm/@snups/rjsf-daisyui.svg?style=flat-square
+[npm-dl-url]: https://www.npmjs.com/package/@snups/rjsf-daisyui
 [contributors-shield]: https://img.shields.io/github/contributors/rjsf-team/react-jsonschema-form.svg?style=flat-square
 [contributors-url]: https://github.com/rjsf-team/react-jsonschema-form/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square
